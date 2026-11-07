@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "description_label_widths_set": true,
+  "definitions_and_formulas_unchanged": true,
+  "and_or_copied_byte_for_byte": true,
+  "and_or_sha256": "8cb4b85fce2ddd6ccba0e2b15dae8ed586176b580b8edb53555d3b2824131f39",
+  "other_images_unchanged": true,
+  "pages": 10,
+  "source_sha256": "964058a61e4104db8a1249029cd88b567d6c93c818ad66030e3f877cff8ae8ef",
+  "notation_text_left_aligned": true,
+  "compile_and_reference_checks": "PASS"
+}

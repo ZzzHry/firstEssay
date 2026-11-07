@@ -27,7 +27,7 @@ Fatigue starts at zero in a representative cycle. Each human-involving task cont
 
 \subsection{Notation}
 \subsubsection{Sets and indices}
-\begin{description}
+\begin{description}[\IEEEsetlabelwidth{$\mathcal I_l^{\rm req}$:}\setlength{\labelsep}{0.6em}\raggedright]
 \item[$\mathcal L$:] Set of disassembly lines, indexed by $l$.
 \item[$\mathcal I_l$:] Tasks on line $l$, indexed by $i,j$; $n_l=|\mathcal I_l|$.
 \item[$\mathcal I_l^{\rm req}$:] Subset of required tasks on line $l$.
@@ -36,7 +36,7 @@ Fatigue starts at zero in a representative cycle. Each human-involving task cont
 \item[$\mathcal E_l$:] Direct AND arcs $(i,j)$, where $i$ precedes $j$.
 \end{description}
 \subsubsection{Parameters}
-\begin{description}
+\begin{description}[\IEEEsetlabelwidth{$c_{ls}^{0},c_{ls}^{H},c_{ls}^{R}$:}\setlength{\labelsep}{0.6em}\raggedright]
 \item[$v_{li},w_{li}$:] Recovery value and recovery weight of task $i$.
 \item[$c_{li}^{m},t_{li}^{m}$:] Direct execution cost and processing duration in mode $m$.
 \item[$\beta_{li}^{m}$:] Fatigue coefficient; $d_{li}^{m}=\beta_{li}^{m}t_{li}^{m}$ is the corresponding load.
@@ -48,7 +48,7 @@ Fatigue starts at zero in a representative cycle. Each human-involving task cont
 \item[$a_m^H,a_m^R$:] Resource indicators, equal to $(1,0)$ for H, $(0,1)$ for R, and $(1,1)$ for J.
 \end{description}
 \subsubsection{Decision variables}
-\begin{description}
+\begin{description}[\IEEEsetlabelwidth{$h_{ls},r_{ls}$:}\setlength{\labelsep}{0.6em}\raggedright]
 \item[$y_{li}$:] One if task $i$ is selected, and zero otherwise.
 \item[$x_{lism}$:] One if task $i$ executes at station $s$ in mode $m$.
 \item[$u_{ls}$:] One if station $s$ is active.

@@ -16,7 +16,7 @@
       "figure": 3,
       "source": "essay\\add\\and_mode_or.png",
       "embedded_file": "essay\\myEssay\\img\\and_mode_or.png",
-      "sha256": "01b05f77c22ce749e60965923b1fac09d7cc1a708d7f63342511a974f2a9df01"
+      "sha256": "8cb4b85fce2ddd6ccba0e2b15dae8ed586176b580b8edb53555d3b2824131f39"
     }
   ],
   "removed_legacy_assets": [
@@ -66,10 +66,9 @@
     }
   ],
   "status": "PASS",
-  "pages": 11,
+  "pages": 10,
   "scope": "Three supplied PNGs copied unchanged; legacy variants and replacement duplicates removed. Captions/prose unchanged. Raster figures are not covered by old vector font audits.",
   "image_pages": [
-    3,
-    4
+    3
   ]
 }

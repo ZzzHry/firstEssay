@@ -352,10 +352,10 @@ xmf-dist/fonts/enc/dvips/base/8r.enc}]) (./sections/model.tex
 (d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
 [2] [3 <./img/product_structure.png (PNG copy)> <./img/circular_lines.png (PNG 
-copy)> <./img/and_mode_or.png (PNG copy)>]) (./sections/method.tex [4] [5 <./im
-g/algorithm_flowchart.pdf>]) (./sections/experiments.tex [6] [7]
-(./tables/formal.tex) (./tables/robust.tex) (./tables/iterations.tex) [8 <./img
-/performance_lines.pdf>]) (./sections/conclusion.tex) (build/HCDP.bbl [9])
+copy)> <./img/and_mode_or.png>]) (./sections/method.tex [4] [5 <./img/algorithm
+_flowchart.pdf>]) (./sections/experiments.tex [6] (./tables/formal.tex [7])
+(./tables/robust.tex) [8 <./img/performance_lines.pdf>]
+(./tables/iterations.tex)) (./sections/conclusion.tex) (build/HCDP.bbl [9])
 [10] (build/HCDP.aux) )<d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmex10.pfb><d:/ProgramStore/TexLive/t/texlive/2026/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/ProgramStore/TexLive/t/t
@@ -376,5 +376,5 @@ type1/public/amsfonts/symbols/msbm10.pfb><d:/ProgramStore/TexLive/t/texlive/202
 e/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><d:/ProgramStore/TexLive/t/
 texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/ProgramStore/TexLi
 ve/t/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on build/HCDP.pdf (10 pages, 4502460 bytes).
+Output written on build/HCDP.pdf (10 pages, 3681600 bytes).
 Transcript written on build/HCDP.log.
