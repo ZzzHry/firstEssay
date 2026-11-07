@@ -11,7 +11,7 @@
     "page_height": 792.0
   },
   "pages": {
-    "HCDP": 11,
+    "HCDP": 10,
     "HCDP_SF": 3
   },
   "scope": "archived evidence extraction, source hashes, TeX/PDF text and log checks; not new optimization runs"

@@ -5,14 +5,14 @@ Several lines process different end-of-life products while drawing humans and ro
 The illustrative tasks remove the front guard ($T_1$), detach the impeller ($T_2$), open the rear cover ($T_3$), disconnect the controller ($T_4$), extract the motor unit ($T_5$), separate the rotor ($T_6$), recover the stator ($T_7$), and recover the power lead ($T_8$). These labels connect the component tree to the access graph.
 
 \begin{figure}[!t]\centering
-\includegraphics[width=\columnwidth]{img/product_structure.pdf}
+\includegraphics[width=\columnwidth]{img/product_structure_replacement.png}
 \caption{Illustrative fan-unit product structure and recovery operations. The component tree indicates containment, not precedence; the task graph in Fig.~\ref{fig:andor} defines access dependencies.}\label{fig:product}
 \end{figure}
 
 Fig.~\ref{fig:ring} shows a physical circular layout. A fixed entry cuts each circle into ordered stations. A product visits these stations once and exits; only empty carriers return. Consequently, station indices have the same precedence meaning as an ordered line. The model contains no multi-lap product routing, geometric travel time, or cyclic task sequence. The figure illustrates the adopted layout without changing the underlying assignment constraints.
 
 \begin{figure}[!t]\centering
-\includegraphics[width=\columnwidth]{img/circular_lines.pdf}
+\includegraphics[width=\columnwidth]{img/circular_lines_replacement.png}
 \caption{Two illustrative circular lines with fixed entry, ordered single-pass processing, and shared planning pools. Dashed return arcs carry empty carriers only. Pool links indicate deployment limits, not movement during operation.}\label{fig:ring}
 \end{figure}
 

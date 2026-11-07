@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": 1,
+      "source": "essay\\add\\product_structure.png",
+      "embedded_file": "essay\\myEssay\\img\\product_structure_replacement.png",
+      "sha256": "d912ed60583c38ce0077abad56ef4ca76ec6e2ea39c76d337c01edc900ba4e0a"
+    },
+    {
+      "figure": 2,
+      "source": "essay\\add\\circular_lines.png",
+      "embedded_file": "essay\\myEssay\\img\\circular_lines_replacement.png",
+      "sha256": "99bb931e5f80485c1fbcf5840cb6b87901d863d4ca84dcc9ddf6701d70076b02"
+    }
+  ],
+  "pages": 10,
+  "image_page": 3,
+  "scope": "Two image references only; captions and prose unchanged. Source PNG bytes preserved. Previous vector font audits do not apply to these raster replacements."
+}
