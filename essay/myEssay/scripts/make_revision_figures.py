@@ -172,4 +172,5 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--alignment-tool',type=Path,
         help='Optional external audit_panel_alignment.py; blocks export on alignment failure')
     ALIGNMENT_TOOL=parser.parse_args().alignment_tool
-    product();rings();andor();flow();performance();print('Exported five original figures: PDF/SVG/TIFF/PNG.')
+    # Figures 1--3 are user-supplied PNGs; preserve them and their chosen filenames.
+    flow();performance();print('Exported flow/performance figures; preserved user-supplied Figures 1--3.')

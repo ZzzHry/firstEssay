@@ -35,7 +35,15 @@ def main():
             if 'II. PROBLEM DESCRIPTION' in b[4]:start=dict(page=i+1,x=b[0],y=b[1],page_height=p.rect.height)
     assert start and start['page']==2 and start['y']>start['page_height']/2,start
     assert (HERE/'img/algorithm_flowchart.mmd').is_file()
-    for name in ('product_structure','circular_lines','and_mode_or','algorithm_flowchart','performance_lines'):
+    replacements=json.loads((HERE/'qa/figure_replacement/replacement_record.json').read_text(encoding='utf-8'))
+    assert len(replacements['figures'])==3
+    for item in replacements['figures']:
+        assert hashlib.sha256((ROOT/item['embedded_file']).read_bytes()).hexdigest()==item['sha256']
+    for name in ('product_structure','circular_lines','and_mode_or'):
+        assert (HERE/f'img/{name}.png').is_file()
+        assert f'img/{name}.png' in model
+        for suffix in ('pdf','svg','tiff'):assert not (HERE/f'img/{name}.{suffix}').exists()
+    for name in ('algorithm_flowchart','performance_lines'):
         for suffix in ('pdf','svg','tiff','png'):assert (HERE/f'img/{name}.{suffix}').is_file()
         audit=json.loads((HERE/f'qa/figures/{name}_collisions.json').read_text(encoding='utf-8-sig'))
         assert audit['verdict']=='PASS',name

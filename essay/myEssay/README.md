@@ -1,6 +1,6 @@
 # 英文论文第二版
 
-阅读入口为 HCDP.pdf（正文）与 HCDP_SF.pdf（补充文件）。源码入口为 HCDP.tex，章节在 sections/，参考文献在 MyReferences.bib。第二版按用户指定的三篇期刊论文检查了结构和图文样式，保留本地 HCDP 模板的 IEEEtran 双栏、letter 纸、10 pt 正文及 12 页上限。正文现为 10 页，补充 3 页。
+阅读入口为 HCDP.pdf（正文）与 HCDP_SF.pdf（补充文件）。源码入口为 HCDP.tex，章节在 sections/，参考文献在 MyReferences.bib。第二版按用户指定的三篇期刊论文检查了结构和图文样式，保留本地 HCDP 模板的 IEEEtran 双栏、letter 纸、10 pt 正文及 12 页上限。正文现为 11 页，补充 3 页。
 
 本版聚焦整线列生成、受限整数恢复和按需资源档 DP，不撰写强化学习方法或结果。原数学模型、求解器和历史实验保持不变；新的环形布局图只表示固定入口、单次通过的物理布置，OR 只表示 H/R/J 模式选择。图示风扇为概念例子，不是新增工业测试数据。
 
@@ -27,3 +27,5 @@
 **本版有效文件清单为 SHA256.v2.json**。运行 `python scripts/seal.py --check` 校验第二版。旧 SHA256.json 保留为第一版提交 e0715ad3 的快照，不能用它检查已经修改的第二版文件；必要时在该历史提交中核验。新清单不含自身，build/ 与 __pycache__/ 不进入清单。
 
 作者署名、单位、基金、照片、实验机器 CPU 型号等仍待确认。模板、账户文件与外部论文原 PDF 不进入交付。完整本轮变更、检查范围和待补事项见 REVISION2_REPORT.md、DRAFT_NOTES.md、TEMPLATE_COMPLIANCE.md。
+
+Fig. 1–3 使用 essay/add 中提供的 PNG，已复制到 img 下同名文件并清理旧 PDF/SVG/TIFF 和 _replacement 副本。make_revision_figures.py 默认仅重建流程与性能图，保留这三张用户图片。当前图片来源与检查记录见 qa/figure_replacement/replacement_record.json；原矢量字体审计不适用于新位图。

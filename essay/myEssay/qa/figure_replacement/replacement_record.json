@@ -1,20 +1,75 @@
 {
-  "status": "PASS",
   "figures": [
     {
       "figure": 1,
       "source": "essay\\add\\product_structure.png",
-      "embedded_file": "essay\\myEssay\\img\\product_structure_replacement.png",
+      "embedded_file": "essay\\myEssay\\img\\product_structure.png",
       "sha256": "d912ed60583c38ce0077abad56ef4ca76ec6e2ea39c76d337c01edc900ba4e0a"
     },
     {
       "figure": 2,
       "source": "essay\\add\\circular_lines.png",
-      "embedded_file": "essay\\myEssay\\img\\circular_lines_replacement.png",
+      "embedded_file": "essay\\myEssay\\img\\circular_lines.png",
+      "sha256": "9bc18fa5696ab3c4bdc5cff7ddf73fec159c4280617cffd31bce6344cf0ee28e"
+    },
+    {
+      "figure": 3,
+      "source": "essay\\add\\and_mode_or.png",
+      "embedded_file": "essay\\myEssay\\img\\and_mode_or.png",
+      "sha256": "01b05f77c22ce749e60965923b1fac09d7cc1a708d7f63342511a974f2a9df01"
+    }
+  ],
+  "removed_legacy_assets": [
+    {
+      "path": "essay\\myEssay\\img\\product_structure.pdf",
+      "sha256": "5ab9de9b9edcb282ef9a2fbad8bad46f0d7157017b5fbca5647f9cc879bfb8fb"
+    },
+    {
+      "path": "essay\\myEssay\\img\\product_structure.svg",
+      "sha256": "4d8bf3d0faf542e1c6ebbcc170b59e9744efa6721a18aee6931695c1e3862cd3"
+    },
+    {
+      "path": "essay\\myEssay\\img\\product_structure.tiff",
+      "sha256": "684a8a411e4e5785ff15ca52d8213dd533c74ffffecfe7552277a6c5ff5f6551"
+    },
+    {
+      "path": "essay\\myEssay\\img\\circular_lines.pdf",
+      "sha256": "382b91349c29354b415f38ea75e02b11001b19cbf750f79df9de242be7d2d31f"
+    },
+    {
+      "path": "essay\\myEssay\\img\\circular_lines.svg",
+      "sha256": "9b11822e784bf8cd26d9f8d5c2a72ec643ba70826d69875a83d99e138b1337f3"
+    },
+    {
+      "path": "essay\\myEssay\\img\\circular_lines.tiff",
+      "sha256": "7ee603af1b04294feefcfe68a9f6f3539d1770baee11b76796546a79a1a74bbe"
+    },
+    {
+      "path": "essay\\myEssay\\img\\and_mode_or.pdf",
+      "sha256": "5accd2aad29cc20f273f5220810fc6034416eb37ad20cdae617995a737073d9b"
+    },
+    {
+      "path": "essay\\myEssay\\img\\and_mode_or.svg",
+      "sha256": "7098db0d68c92ce369a8ef10dc91f6d91094e68936186c0ed9f2b2ff74a25f9c"
+    },
+    {
+      "path": "essay\\myEssay\\img\\and_mode_or.tiff",
+      "sha256": "725ae7305ecf38554954c658acdf08cec169ef6f61e8cde6d9e8f7b5c73893b2"
+    },
+    {
+      "path": "essay\\myEssay\\img\\product_structure_replacement.png",
+      "sha256": "d912ed60583c38ce0077abad56ef4ca76ec6e2ea39c76d337c01edc900ba4e0a"
+    },
+    {
+      "path": "essay\\myEssay\\img\\circular_lines_replacement.png",
       "sha256": "99bb931e5f80485c1fbcf5840cb6b87901d863d4ca84dcc9ddf6701d70076b02"
     }
   ],
-  "pages": 10,
-  "image_page": 3,
-  "scope": "Two image references only; captions and prose unchanged. Source PNG bytes preserved. Previous vector font audits do not apply to these raster replacements."
+  "status": "PASS",
+  "pages": 11,
+  "scope": "Three supplied PNGs copied unchanged; legacy variants and replacement duplicates removed. Captions/prose unchanged. Raster figures are not covered by old vector font audits.",
+  "image_pages": [
+    3,
+    4
+  ]
 }
