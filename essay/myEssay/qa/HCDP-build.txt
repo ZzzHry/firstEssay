@@ -352,29 +352,29 @@ xmf-dist/fonts/enc/dvips/base/8r.enc}]) (./sections/model.tex
 (d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
 [2] [3 <./img/product_structure.png (PNG copy)> <./img/circular_lines.png (PNG 
-copy)>] [4 <./img/and_mode_or.png (PNG copy)>]) (./sections/method.tex [5]
-[6 <./img/algorithm_flowchart.pdf>]) (./sections/experiments.tex [7]
-(./tables/formal.tex) (./tables/robust.tex) (./tables/iterations.tex) [8])
-(./sections/conclusion.tex [9 <./img/performance_lines.pdf>]) (build/HCDP.bbl
-[10]) [11] (build/HCDP.aux) )<d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/ProgramStore/TexLive/t/texlive/2
-026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/ProgramStore/TexLi
-ve/t/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/Progr
-amStore/TexLive/t/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.
-pfb><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/ProgramStore/TexLive/t/texlive/2
-026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/ProgramStore/TexLiv
-e/t/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Program
-Store/TexLive/t/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msbm10.pfb><d:/ProgramStore/TexLive/t/texli
-ve/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/ProgramStore/TexLive/t/
-texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><d:/ProgramStore/TexL
-ive/t/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/ProgramStore
-/TexLive/t/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on build/HCDP.pdf (11 pages, 4503790 bytes).
+copy)> <./img/and_mode_or.png (PNG copy)>]) (./sections/method.tex [4] [5 <./im
+g/algorithm_flowchart.pdf>]) (./sections/experiments.tex [6] [7]
+(./tables/formal.tex) (./tables/robust.tex) (./tables/iterations.tex) [8 <./img
+/performance_lines.pdf>]) (./sections/conclusion.tex) (build/HCDP.bbl [9])
+[10] (build/HCDP.aux) )<d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><d:/ProgramStore/TexLive/t/texlive/2026/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/ProgramStore/TexLive/t/t
+exlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/ProgramStor
+e/TexLive/t/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d
+:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi9.pfb><d:/ProgramStore/TexLive/t/texlive/2026/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/ProgramStore/TexLive/t/te
+xlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/ProgramStore/
+TexLive/t/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/P
+rogramStore/TexLive/t/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb><d:/ProgramStore/TexLive/t/texlive/2026/texmf-dist/fonts/
+type1/public/amsfonts/symbols/msbm10.pfb><d:/ProgramStore/TexLive/t/texlive/202
+6/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/ProgramStore/TexLive/t/texliv
+e/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><d:/ProgramStore/TexLive/t/
+texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/ProgramStore/TexLi
+ve/t/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on build/HCDP.pdf (10 pages, 4502460 bytes).
 Transcript written on build/HCDP.log.

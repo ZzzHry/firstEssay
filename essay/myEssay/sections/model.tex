@@ -18,10 +18,10 @@ Fig.~\ref{fig:ring} shows a physical circular layout. A fixed entry cuts each ci
 
 Modes H, R, and J denote human, robot, and joint execution. Mode J requires one human and one robot; its duration enters station time once. Tasks within a station execute sequentially. A selected task receives exactly one allowed mode at exactly one station. Fig.~\ref{fig:andor} distinguishes AND access dependencies from the OR choice among execution modes. OR does not denote mutually exclusive product-disassembly routes. A predecessor can share a station with its successor; a topological order gives a feasible within-station sequence.
 
-\begin{figure*}[!t]\centering
-\includegraphics[width=\textwidth]{img/and_mode_or.png}
+\begin{figure}[!t]\centering
+\includegraphics[width=\columnwidth]{img/and_mode_or.png}
 \caption{Illustrative AND dependencies and conditional execution-mode OR. Both $T_2$ and $T_4$ precede $T_5$. If $T_5$ is selected, exactly one allowed mode is chosen; omitting an optional task selects none. The diagram introduces no route-selection OR constraint.}\label{fig:andor}
-\end{figure*}
+\end{figure}
 
 Fatigue starts at zero in a representative cycle. Each human-involving task contributes a nonnegative additive load. There is no within-cycle recovery or accumulation across successive cycles. Robot-only modes have zero fatigue load. Resource pools limit the total number of stations with human and robot deployment. This planning model does not describe resource movement. Candidate stations can have different costs, and consecutive activation is not required. There are no precedence arcs between lines.
 
@@ -61,20 +61,16 @@ Every sum over $m$ uses the task's allowed set $\mathcal M_{li}$. Unless a row s
 \max\ z={}&\sum_{l,i}v_{li}y_{li}-\sum_{l,i,s,m}c_{li}^{m}x_{lism}\nonumber\\
 &-\sum_{l,s}\left(c_{ls}^{0}u_{ls}+c_{ls}^{H}h_{ls}+c_{ls}^{R}r_{ls}\right).\label{eq:obj}
 \end{align}
-Objective~\eqref{eq:obj} subtracts execution, station, human, and robot costs from task recovery value.
 \begin{align}
 \sum_{s\in\mathcal S_l}\sum_{m\in\mathcal M_{li}}x_{lism}&=y_{li}&&\forall l,i,\label{eq:assign}\\
 y_{li}&=1&&\forall l,\ i\in\mathcal I_l^{\rm req}.\label{eq:required}
 \end{align}
-Constraint~\eqref{eq:assign} indicates that a selected task receives exactly one station--mode assignment; an omitted task receives none. It enforces the conditional mode OR in Fig.~\ref{fig:andor}.
 
-Constraint~\eqref{eq:required} indicates that every required task is selected.
 For every $l$, $(i,j)\in\mathcal E_l$, and $k\in\mathcal S_l$, AND precedence requires
 \begin{equation}
 \sum_{s=1}^{k}\sum_{m\in\mathcal M_{lj}}x_{ljsm}
 \leq\sum_{s=1}^{k}\sum_{m\in\mathcal M_{li}}x_{lism}.\label{eq:prec}
 \end{equation}
-Constraint~\eqref{eq:prec} indicates that each successor requires its predecessor at the same or an earlier station. The final prefix enforces predecessor selection. Applying the row to every incoming arc gives AND precedence.
 \begin{align}
 \sum_{i,m}t_{li}^{m}x_{lism}&\leq t_l^c u_{ls},\label{eq:cycle}\\
 u_{ls}\leq\sum_{i,m}x_{lism}&\leq n_lu_{ls},\label{eq:active}\\
@@ -82,6 +78,22 @@ h_{ls}\leq\sum_{i,m}a_m^Hx_{lism}&\leq n_lh_{ls},\label{eq:hlogic}\\
 r_{ls}\leq\sum_{i,m}a_m^Rx_{lism}&\leq n_lr_{ls},\label{eq:rlogic}\\
 \sum_{i,m}d_{li}^{m}x_{lism}&\leq b_lh_{ls}.\label{eq:fatigue}
 \end{align}
+
+\begin{align}
+\sum_{l,s}h_{ls}&\leq h^{\max},\label{eq:sharedh}\\
+\sum_{l,s}r_{ls}&\leq r^{\max},\label{eq:sharedr}\\
+\sum_{i\in\mathcal I_l}w_{li}y_{li}&\geq q_l&&\forall l,\label{eq:recovery}\\
+x_{lism},y_{li},u_{ls},h_{ls},r_{ls}&\in\{0,1\}.\label{eq:binary}
+\end{align}
+
+Objective~\eqref{eq:obj} subtracts execution, station, human, and robot costs from task recovery value.
+
+Constraint~\eqref{eq:assign} indicates that a selected task receives exactly one station--mode assignment; an omitted task receives none. It enforces the conditional mode OR in Fig.~\ref{fig:andor}.
+
+Constraint~\eqref{eq:required} indicates that every required task is selected.
+
+Constraint~\eqref{eq:prec} indicates that each successor requires its predecessor at the same or an earlier station. The final prefix enforces predecessor selection. Applying the row to every incoming arc gives AND precedence.
+
 Constraint~\eqref{eq:cycle} indicates that total station processing time does not exceed the line cycle limit when the station is active.
 
 Constraint~\eqref{eq:active} indicates that a station is active if and only if it contains at least one task. Thus an empty station incurs no activation cost.
@@ -91,12 +103,7 @@ Constraint~\eqref{eq:hlogic} indicates that a human is deployed if and only if a
 Constraint~\eqref{eq:rlogic} indicates the corresponding if-and-only-if requirement for robot deployment. Together these rows charge both resources for mode J and for a station mixing H and R tasks.
 
 Constraint~\eqref{eq:fatigue} indicates that cumulative human load stays within its additive budget. Equivalently, the station fatigue level $1-\exp(-\sum_{i,m}d_{li}^{m}x_{lism})$ does not exceed $\bar f_l$ at a human-equipped station.
-\begin{align}
-\sum_{l,s}h_{ls}&\leq h^{\max},\label{eq:sharedh}\\
-\sum_{l,s}r_{ls}&\leq r^{\max},\label{eq:sharedr}\\
-\sum_{i\in\mathcal I_l}w_{li}y_{li}&\geq q_l&&\forall l,\label{eq:recovery}\\
-x_{lism},y_{li},u_{ls},h_{ls},r_{ls}&\in\{0,1\}.\label{eq:binary}
-\end{align}
+
 Constraint~\eqref{eq:sharedh} indicates that total human deployment across all lines does not exceed the shared capacity.
 
 Constraint~\eqref{eq:sharedr} indicates the analogous limit for robots.
