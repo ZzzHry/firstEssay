@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "source_figure_sha256": "392b071a062f84173c38c94a61edb09505d1848325bb6b7bd6e28d1337a6a690",
+  "embedded_copy_byte_identical": true,
+  "page_count": 11,
+  "gantt_page": 9,
+  "figure_number": 5,
+  "task_label_actual_pdf_pt": 6.425999641418457,
+  "evidence": {
+    "status": "PASS",
+    "compact_ip": 132.57999999999998,
+    "cg_ip": 132.57999999999998,
+    "both_integer_optimal_proven": true,
+    "selected_tasks": 14,
+    "total_tasks": 20,
+    "resources": {
+      "humans": 3,
+      "robots": 2
+    },
+    "unselected": {
+      "L1": [
+        "5",
+        "8"
+      ],
+      "L2": [
+        "14",
+        "15",
+        "16",
+        "19"
+      ]
+    },
+    "all_original_constraints_checked": true,
+    "station_time_and_local_precedence_checked": true,
+    "order_source": "post-solve topological reconstruction, not an optimized start-time variable",
+    "time_axis": "independent local station-cycle clocks",
+    "panel_alignment": "NOT APPLICABLE: a single axes"
+  },
+  "scope": "Existing verified solution reused; no new optimization run. Main manuscript compiled and visually reviewed. Unchanged supplement bytes preserved."
+}
