@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "compact_ip": 132.57999999999998,
+  "cg_ip": 132.57999999999998,
+  "both_integer_optimal_proven": true,
+  "selected_tasks": 14,
+  "total_tasks": 20,
+  "resources": {
+    "humans": 3,
+    "robots": 2
+  },
+  "unselected": {
+    "L1": [
+      "5",
+      "8"
+    ],
+    "L2": [
+      "14",
+      "15",
+      "16",
+      "19"
+    ]
+  },
+  "all_original_constraints_checked": true,
+  "station_time_and_local_precedence_checked": true,
+  "order_source": "post-solve topological reconstruction, not an optimized start-time variable",
+  "time_axis": "independent local station-cycle clocks",
+  "panel_alignment": "NOT APPLICABLE: a single axes"
+}
