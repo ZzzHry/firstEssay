@@ -1,0 +1,345 @@
+{
+  "Wang2024RL": {
+    "status": "OK",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.neucom.2023.127145",
+    "record": {
+      "DOI": "10.1016/j.neucom.2023.127145",
+      "title": [
+        "Reinforcement learning for Hybrid Disassembly Line Balancing Problems"
+      ],
+      "container-title": [
+        "Neurocomputing"
+      ],
+      "volume": "569",
+      "page": "127145",
+      "article-number": "127145",
+      "type": "journal-article",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.neucom.2023.127145",
+      "score": 1,
+      "author": [
+        {
+          "given": "Jiacun",
+          "family": "Wang"
+        },
+        {
+          "given": "GuiPeng",
+          "family": "Xi"
+        },
+        {
+          "given": "XiWang",
+          "family": "Guo"
+        },
+        {
+          "given": "Shixin",
+          "family": "Liu"
+        },
+        {
+          "given": "ShuJin",
+          "family": "Qin"
+        },
+        {
+          "given": "Henry",
+          "family": "Han"
+        }
+      ]
+    }
+  },
+  "Xu2023Failure": {
+    "status": "OK",
+    "url": "https://api.crossref.org/works/10.3390%2Fmath11061557",
+    "record": {
+      "DOI": "10.3390/math11061557",
+      "title": [
+        "Multi-Objective Discrete Brainstorming Optimizer to Solve the Stochastic Multiple-Product Robotic Disassembly Line Balancing Problem Subject to Disassembly Failures"
+      ],
+      "container-title": [
+        "Mathematics"
+      ],
+      "volume": "11",
+      "issue": "6",
+      "page": "1557",
+      "type": "journal-article",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            22
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            22
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            22
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.3390/math11061557",
+      "score": 1,
+      "author": [
+        {
+          "given": "Gongdan",
+          "family": "Xu"
+        },
+        {
+          "given": "Zhiwei",
+          "family": "Zhang"
+        },
+        {
+          "given": "Zhiwu",
+          "family": "Li"
+        },
+        {
+          "given": "Xiwang",
+          "family": "Guo"
+        },
+        {
+          "given": "Liang",
+          "family": "Qi"
+        },
+        {
+          "given": "Xianzhao",
+          "family": "Liu"
+        }
+      ]
+    }
+  },
+  "Guo2025": {
+    "status": "OK",
+    "url": "https://api.crossref.org/works/10.1109%2FTCSS.2025.3540070",
+    "record": {
+      "DOI": "10.1109/tcss.2025.3540070",
+      "title": [
+        "Modeling and Optimization of Multiproduct Human–Robot Collaborative Hybrid Disassembly Line Balancing With Resource Sharing"
+      ],
+      "container-title": [
+        "IEEE Transactions on Computational Social Systems"
+      ],
+      "volume": "12",
+      "issue": "5",
+      "page": "2848-2863",
+      "type": "journal-article",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/tcss.2025.3540070",
+      "score": 1,
+      "author": [
+        {
+          "given": "Xiwang",
+          "family": "Guo"
+        },
+        {
+          "given": "Feng",
+          "family": "Guo"
+        },
+        {
+          "given": "Liang",
+          "family": "Qi"
+        },
+        {
+          "given": "Jiacun",
+          "family": "Wang"
+        },
+        {
+          "given": "Shixin",
+          "family": "Liu"
+        },
+        {
+          "given": "Shujin",
+          "family": "Qin"
+        },
+        {
+          "given": "Weitian",
+          "family": "Wang"
+        }
+      ]
+    }
+  },
+  "Qin2025Hybrid": {
+    "status": "OK",
+    "url": "https://api.crossref.org/works/10.1109%2FTASE.2024.3418898",
+    "record": {
+      "DOI": "10.1109/tase.2024.3418898",
+      "title": [
+        "Multiple Product Hybrid Disassembly Line Balancing Problem With Human-Robot Collaboration"
+      ],
+      "container-title": [
+        "IEEE Transactions on Automation Science and Engineering"
+      ],
+      "volume": "22",
+      "page": "712-723",
+      "type": "journal-article",
+      "published-print": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/tase.2024.3418898",
+      "score": 1,
+      "author": [
+        {
+          "given": "Shujin",
+          "family": "Qin"
+        },
+        {
+          "given": "Changsheng",
+          "family": "Xiang"
+        },
+        {
+          "given": "Jiacun",
+          "family": "Wang"
+        },
+        {
+          "given": "Shixin",
+          "family": "Liu"
+        },
+        {
+          "given": "Xiwang",
+          "family": "Guo"
+        },
+        {
+          "given": "Liang",
+          "family": "Qi"
+        }
+      ]
+    }
+  },
+  "Wang2021Markov": {
+    "status": "OK",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.neucom.2020.12.103",
+    "record": {
+      "DOI": "10.1016/j.neucom.2020.12.103",
+      "title": [
+        "A Markov regime switching model for asset pricing and ambiguity measurement of stock market"
+      ],
+      "container-title": [
+        "Neurocomputing"
+      ],
+      "volume": "435",
+      "page": "283-294",
+      "type": "journal-article",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.neucom.2020.12.103",
+      "score": 1,
+      "author": [
+        {
+          "given": "Jia",
+          "family": "Wang"
+        },
+        {
+          "given": "MengChu",
+          "family": "Zhou"
+        },
+        {
+          "given": "Xiwang",
+          "family": "Guo"
+        },
+        {
+          "given": "Liang",
+          "family": "Qi"
+        },
+        {
+          "given": "Xu",
+          "family": "Wang"
+        }
+      ]
+    }
+  }
+}

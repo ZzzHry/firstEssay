@@ -9,9 +9,12 @@ def main():
     for path,h in sources.items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==h,path
     text='\n'.join(p.read_text(encoding='utf-8') for p in [HERE/'HCDP.tex',*sorted((HERE/'sections').glob('*.tex'))])
     refs=set(re.findall(r'\\cite\{([^}]+)\}',text));refs={k for v in refs for k in v.split(',')}
-    keys=set(re.findall(r'@\w+\{([^,]+)',(HERE/'MyReferences.bib').read_text()));assert refs==keys and len(keys)>30
+    keys=set(re.findall(r'@\w+\{([^,]+)',(HERE/'MyReferences.bib').read_text()));assert refs==keys and 30<len(keys)<=40
+    assert {'Wang2024RL','Xu2023Failure','Guo2025','Qin2025Hybrid','Wang2021Markov'}<=refs
     assert not re.search(r'\bthis paper\b|\bwill\b',text,re.I)
-    assert not re.search(r'reinforcement|learning-assisted|trained learning',text,re.I)
+    assert not re.search(r'learning-assisted|trained learning',text,re.I)
+    method=(HERE/'sections/method.tex').read_text(encoding='utf-8')
+    assert not re.search(r'reinforcement|learning-assisted|trained learning',method,re.I)
     intro=(HERE/'sections/introduction.tex').read_text(encoding='utf-8-sig')
     assert 'This work makes the following new contributions:' in intro
     assert intro.count(r'\item ')==3
@@ -36,14 +39,16 @@ def main():
     assert start and start['page']==2 and start['y']>start['page_height']/2,start
     assert (HERE/'img/algorithm_flowchart.mmd').is_file()
     replacements=json.loads((HERE/'qa/figure_replacement/replacement_record.json').read_text(encoding='utf-8'))
-    assert len(replacements['figures'])==3
+    assert len(replacements['figures'])==4
     for item in replacements['figures']:
         assert hashlib.sha256((ROOT/item['embedded_file']).read_bytes()).hexdigest()==item['sha256']
     for name in ('product_structure','circular_lines','and_mode_or'):
         assert (HERE/f'img/{name}.png').is_file()
         assert f'img/{name}.png' in model
         for suffix in ('pdf','svg','tiff'):assert not (HERE/f'img/{name}.{suffix}').exists()
-    for name in ('algorithm_flowchart','performance_lines'):
+    assert 'img/algorithm_flowchart.png' in method
+    for suffix in ('pdf','svg','tiff'):assert not (HERE/f'img/algorithm_flowchart.{suffix}').exists()
+    for name in ('performance_lines',):
         for suffix in ('pdf','svg','tiff','png'):assert (HERE/f'img/{name}.{suffix}').is_file()
         audit=json.loads((HERE/f'qa/figures/{name}_collisions.json').read_text(encoding='utf-8-sig'))
         assert audit['verdict']=='PASS',name

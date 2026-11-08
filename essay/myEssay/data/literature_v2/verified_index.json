@@ -166,6 +166,27 @@
     "status": "public DOI metadata retrieved"
   },
   {
+    "key": "Qin2025Hybrid",
+    "doi": "10.1109/tase.2024.3418898",
+    "title": "Multiple Product Hybrid Disassembly Line Balancing Problem With Human-Robot Collaboration",
+    "source": "https://doi.org/10.1109/tase.2024.3418898",
+    "status": "public DOI metadata retrieved"
+  },
+  {
+    "key": "Wang2021Markov",
+    "doi": "10.1016/j.neucom.2020.12.103",
+    "title": "A Markov regime switching model for asset pricing and ambiguity measurement of stock market",
+    "source": "https://doi.org/10.1016/j.neucom.2020.12.103",
+    "status": "public DOI metadata retrieved"
+  },
+  {
+    "key": "Wang2024RL",
+    "doi": "10.1016/j.neucom.2023.127145",
+    "title": "Reinforcement learning for Hybrid Disassembly Line Balancing Problems",
+    "source": "https://doi.org/10.1016/j.neucom.2023.127145",
+    "status": "public DOI metadata retrieved"
+  },
+  {
     "key": "Wu2023",
     "doi": "10.1016/j.eswa.2023.120589",
     "title": "Modelling and optimisation of two-sided disassembly line balancing problem with human–robot interaction constraints",
@@ -191,6 +212,13 @@
     "doi": "10.1016/j.jclepro.2021.129158",
     "title": "Human-robot collaborative disassembly line balancing considering the safe strategy in remanufacturing",
     "source": "https://doi.org/10.1016/j.jclepro.2021.129158",
+    "status": "public DOI metadata retrieved"
+  },
+  {
+    "key": "Xu2023Failure",
+    "doi": "10.3390/math11061557",
+    "title": "Multi-Objective Discrete Brainstorming Optimizer to Solve the Stochastic Multiple-Product Robotic Disassembly Line Balancing Problem Subject to Disassembly Failures",
+    "source": "https://doi.org/10.3390/math11061557",
     "status": "public DOI metadata retrieved"
   },
   {

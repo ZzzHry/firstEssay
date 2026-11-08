@@ -28,6 +28,11 @@ def main():
         matches=[v for v in vs if v['DOI'].lower()==doi.lower()]
         assert len(matches)==1,(k,doi)
         records[k]=matches[0]
+    advisor=HERE/'data/advisor_references/metadata.json'
+    if advisor.exists():
+        for key,value in json.loads(advisor.read_text(encoding='utf-8')).items():
+            assert value['status']=='OK'
+            records[key]=value['record']
     additions=[];rows=[]
     for key,r in records.items():
         if key in existing:continue
@@ -46,7 +51,8 @@ def main():
         # Protect letter case in IEEE bibliography styles without changing titles.
         fields['title']='{'+fields['title']+'}'
         additions.append('@article{'+key+',\n'+',\n'.join(' '+k+'={'+v+'}' for k,v in fields.items() if v)+'}\n')
-    (HERE/'MyReferences.bib').write_text(original+'\n\n% Added references: DOI metadata audited 2026-11-07.\n'+ '\n'.join(additions),encoding='utf-8')
+    audit_date='2026-11-08 (advisor update; base metadata 2026-11-07)' if advisor.exists() else '2026-11-07'
+    (HERE/'MyReferences.bib').write_text(original+'\n\n% Added references: DOI metadata audited '+audit_date+'.\n'+ '\n'.join(additions),encoding='utf-8')
     for key in sorted(existing|set(records)):
         r=records.get(key)
         if r:rows.append(dict(key=key,doi=r['DOI'],title=r['title'][0],source='https://doi.org/'+r['DOI'],status='public DOI metadata retrieved'))

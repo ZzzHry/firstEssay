@@ -69,3 +69,8 @@
 - [63/41](https://hopeembark.org/index.php/IJGMAI/article/view/63/41)：原 PDF 12 页；编号贡献和 Problem Description 的组织方式作为版式参考。
 
 三篇格式原 PDF 均实际下载阅读，暂存忽略的 build/reference_pdfs/。57/63 的学习算法不进入本稿方法或结果，也没有仅因格式用途将它们塞入参考文献。网页与 DOI 题录访问日期为 2026-11-07；部分网页显示时间不同于印刷年份，以上显式记录。
+
+
+## 2026-11-08 导师指定文献补充
+
+五篇均已实际引用，其中一篇原已收录、四篇新增，当前共38篇。完整DOI、年份差异、访问限制和跨领域引用边界见 ADVISOR_REFERENCE_UPDATE.md；新增注册题录见 data/advisor_references/metadata.json。

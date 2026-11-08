@@ -1,6 +1,6 @@
 # 英文论文第二版
 
-阅读入口为 HCDP.pdf（正文）与 HCDP_SF.pdf（补充文件）。源码入口为 HCDP.tex，章节在 sections/，参考文献在 MyReferences.bib。第二版按用户指定的三篇期刊论文检查了结构和图文样式，保留本地 HCDP 模板的 IEEEtran 双栏、letter 纸、10 pt 正文及 12 页上限。正文现为 10 页，补充 3 页。
+阅读入口为 HCDP.pdf（正文）与 HCDP_SF.pdf（补充文件）。源码入口为 HCDP.tex，章节在 sections/，参考文献在 MyReferences.bib。第二版按用户指定的三篇期刊论文检查了结构和图文样式，保留本地 HCDP 模板的 IEEEtran 双栏、letter 纸、10 pt 正文及 12 页上限。正文现为 11 页，补充 3 页。
 
 本版聚焦整线列生成、受限整数恢复和按需资源档 DP，不撰写强化学习方法或结果。原数学模型、求解器和历史实验保持不变；新的环形布局图只表示固定入口、单次通过的物理布置，OR 只表示 H/R/J 模式选择。图示风扇为概念例子，不是新增工业测试数据。
 
@@ -10,7 +10,7 @@
 - 新增产品组件树、双线环形布局、AND 与模式 OR 示意；集合/参数/变量改为条目定义，约束 (2)–(13) 逐条解释。
 - 新增算法流程概览与独立 Mermaid 源，见 MERMAID_GUIDE.md。
 - 用 Python 绘制六组封存主实验的耗时和最终认证 Gap 折线图。限时点与证明完成点分开标记，保留失败边界案例。
-- 参考文献扩展至 34 篇，全部在正文引用。主来源核对与年份冲突见 REFERENCE_VERIFICATION.md。
+- 参考文献扩展至 38 篇，全部在正文引用。主来源核对与年份冲突见 REFERENCE_VERIFICATION.md。
 
 ## 编译与图件
 
@@ -28,4 +28,6 @@
 
 作者署名、单位、基金、照片、实验机器 CPU 型号等仍待确认。模板、账户文件与外部论文原 PDF 不进入交付。完整本轮变更、检查范围和待补事项见 REVISION2_REPORT.md、DRAFT_NOTES.md、TEMPLATE_COMPLIANCE.md。
 
-Fig. 1–3 使用 essay/add 中提供的 PNG，已复制到 img 下同名文件并清理旧 PDF/SVG/TIFF 和 _replacement 副本。make_revision_figures.py 默认仅重建流程与性能图，保留这三张用户图片。当前图片来源与检查记录见 qa/figure_replacement/replacement_record.json；原矢量字体审计不适用于新位图。
+Fig. 1–4 使用 essay/add 中提供的 PNG，已复制到 img 下同名文件并清理旧 PDF/SVG/TIFF 和 _replacement 副本。make_revision_figures.py 默认仅重建性能图，保留这四张用户图片。当前图片来源与检查记录见 qa/figure_replacement/replacement_record.json；原矢量字体审计不适用于新位图。
+
+2026-11-08：导师指定的五篇文献全部已引用，其中一篇原已收录，新增四篇，总数38。核对与引用边界见 ADVISOR_REFERENCE_UPDATE.md。当前流程图使用 img/algorithm_flowchart.png。

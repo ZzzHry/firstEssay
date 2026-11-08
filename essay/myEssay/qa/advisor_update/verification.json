@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "references": 38,
+  "required_keys": [
+    "Guo2025",
+    "Qin2025Hybrid",
+    "Wang2021Markov",
+    "Wang2024RL",
+    "Xu2023Failure"
+  ],
+  "unique_dois": 38,
+  "all_required_references_cited": true,
+  "model_unchanged": true,
+  "other_figures_unchanged": true,
+  "flowchart_bytes_preserved": true,
+  "pages": 11,
+  "source_scope": "Primary metadata and available abstracts; no claim of full-text review of all five papers."
+}
