@@ -1,0 +1,590 @@
+{
+  "scope": "Read-only extraction of existing evidence and byte-hash checks; no new solve or independent optimality replay.",
+  "cases": [
+    {
+      "case": "tasks080_lines04_conflict_candidate_seed32",
+      "source_certificate": "sub/stage12/evidence/formal600/tasks080_lines04_conflict_candidate_seed32__balanced_bound/result.json.zlib",
+      "certificate_sha256": "957e66727ff532358872570dc7d8df5a690c4e67e22c666c1592284fe1fefcf5",
+      "recorded_end_to_end_seconds": 19.356329400005052,
+      "result": {
+        "status": "optimal_within_tolerance",
+        "global_lower_bound": 583.64,
+        "global_upper_bound": 583.64,
+        "global_integer_optimal_proven": true,
+        "profile_calls": 0
+      },
+      "cg": {
+        "status": "optimal_within_tolerance",
+        "termination_reason": "verified_integer_and_valid_upper_bound_close",
+        "lower_bound": 583.64,
+        "upper_bound": 583.6400000000001,
+        "lp_optimal_proven": false,
+        "columns": 18,
+        "pricing_calls": 20
+      },
+      "history": [
+        {
+          "iteration": 1,
+          "phase": 1,
+          "rmp_objective": -3.0,
+          "artificials": {
+            "human": 1.0,
+            "robot": 2.0
+          },
+          "duals": {
+            "human": 1.0,
+            "robot": 1.0,
+            "convexity": {
+              "L1": -3.0,
+              "L2": -4.0,
+              "L3": -5.0,
+              "L4": -4.0
+            }
+          },
+          "complete_exact_pricing": true,
+          "pricing_status": [
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal"
+          ],
+          "reduced_costs": [
+            1.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "repaired_upper_bound": 7.0,
+          "added_columns": 4,
+          "phase_transition": false
+        },
+        {
+          "iteration": 2,
+          "phase": 1,
+          "rmp_objective": -0.0,
+          "artificials": {
+            "human": 0.0,
+            "robot": 0.0
+          },
+          "duals": {
+            "human": 0.0,
+            "robot": 0.0,
+            "convexity": {
+              "L1": -0.0,
+              "L2": -0.0,
+              "L3": -0.0,
+              "L4": -0.0
+            }
+          },
+          "complete_exact_pricing": false,
+          "pricing_status": [],
+          "reduced_costs": [],
+          "repaired_upper_bound": null,
+          "added_columns": 0,
+          "phase_transition": true
+        },
+        {
+          "iteration": 3,
+          "phase": 2,
+          "rmp_objective": 414.34999999999997,
+          "artificials": {},
+          "duals": {
+            "human": 0.0,
+            "robot": 94.88,
+            "convexity": {
+              "L1": -61.19999999999999,
+              "L2": -73.84,
+              "L3": 20.05000000000001,
+              "L4": -39.94
+            }
+          },
+          "complete_exact_pricing": true,
+          "pricing_status": [
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal"
+          ],
+          "reduced_costs": [
+            125.0,
+            86.28000000000002,
+            81.77999999999997,
+            80.47999999999996
+          ],
+          "repaired_upper_bound": 787.89,
+          "added_columns": 4,
+          "phase_transition": false
+        },
+        {
+          "iteration": 4,
+          "phase": 2,
+          "rmp_objective": 500.63,
+          "artificials": {},
+          "duals": {
+            "human": 26.826666666666647,
+            "robot": 35.42666666666663,
+            "convexity": {
+              "L1": 30.880000000000102,
+              "L2": -8.586666666666568,
+              "L3": 58.47666666666683,
+              "L4": 19.51333333333337
+            }
+          },
+          "complete_exact_pricing": true,
+          "pricing_status": [
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal"
+          ],
+          "reduced_costs": [
+            9.799999999999969,
+            41.42333333333329,
+            27.926666666666634,
+            22.99333333333334
+          ],
+          "repaired_upper_bound": 602.7733333333332,
+          "added_columns": 4,
+          "phase_transition": false
+        },
+        {
+          "iteration": 5,
+          "phase": 2,
+          "rmp_objective": 578.6800000000001,
+          "artificials": {},
+          "duals": {
+            "human": 6.664999999999964,
+            "robot": 14.16500000000002,
+            "convexity": {
+              "L1": 102.26500000000004,
+              "L2": 74.26000000000002,
+              "L3": 169.25000000000003,
+              "L4": 101.26000000000005
+            }
+          },
+          "complete_exact_pricing": true,
+          "pricing_status": [
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal"
+          ],
+          "reduced_costs": [
+            0.0,
+            4.755000000000024,
+            0.0,
+            0.20499999999995566
+          ],
+          "repaired_upper_bound": 583.6400000000001,
+          "added_columns": 2,
+          "phase_transition": false
+        },
+        {
+          "iteration": 6,
+          "phase": 2,
+          "rmp_objective": 583.64,
+          "artificials": {},
+          "duals": {
+            "human": 6.460000000000008,
+            "robot": 9.409999999999997,
+            "convexity": {
+              "L1": 107.42999999999998,
+              "L2": 84.17999999999998,
+              "L3": 179.17,
+              "L4": 111.18
+            }
+          },
+          "complete_exact_pricing": false,
+          "pricing_status": [],
+          "reduced_costs": [],
+          "repaired_upper_bound": null,
+          "added_columns": 0,
+          "phase_transition": false
+        }
+      ]
+    },
+    {
+      "case": "tasks120_lines06_ratio80_seed34",
+      "source_certificate": "sub/stage13/evidence/robust180/tasks120_lines06_ratio80_seed34__balanced_bound/result.json.zlib",
+      "certificate_sha256": "31f5ba730c7b5d12ea3a8151fbfc27178e83d053e756660d27d835888b560dcb",
+      "recorded_end_to_end_seconds": 144.54775659998995,
+      "result": {
+        "status": "optimal_within_tolerance",
+        "global_lower_bound": 1009.9799999999999,
+        "global_upper_bound": 1009.98,
+        "global_integer_optimal_proven": true,
+        "profile_calls": 31
+      },
+      "cg": {
+        "status": "time_limit",
+        "termination_reason": "pricing_not_proven_optimal",
+        "lower_bound": 977.0200000000001,
+        "upper_bound": 1101.456619642994,
+        "lp_optimal_proven": false,
+        "columns": 29,
+        "pricing_calls": 30
+      },
+      "history": [
+        {
+          "iteration": 1,
+          "phase": 1,
+          "rmp_objective": -5.0,
+          "artificials": {
+            "human": 2.0,
+            "robot": 3.0
+          },
+          "duals": {
+            "human": 1.0,
+            "robot": 1.0,
+            "convexity": {
+              "L1": -4.0,
+              "L2": -4.0,
+              "L3": -4.0,
+              "L4": -4.0,
+              "L5": -5.0,
+              "L6": -4.0
+            }
+          },
+          "complete_exact_pricing": true,
+          "pricing_status": [
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal"
+          ],
+          "reduced_costs": [
+            3.0,
+            2.0,
+            3.0,
+            2.0,
+            3.0,
+            2.0
+          ],
+          "repaired_upper_bound": 10.0,
+          "added_columns": 6,
+          "phase_transition": false
+        },
+        {
+          "iteration": 2,
+          "phase": 1,
+          "rmp_objective": -0.0,
+          "artificials": {
+            "human": 0.0,
+            "robot": 0.0
+          },
+          "duals": {
+            "human": 0.0,
+            "robot": 0.0,
+            "convexity": {
+              "L1": -0.0,
+              "L2": -0.0,
+              "L3": -0.0,
+              "L4": -0.0,
+              "L5": -0.0,
+              "L6": -0.0
+            }
+          },
+          "complete_exact_pricing": false,
+          "pricing_status": [],
+          "reduced_costs": [],
+          "repaired_upper_bound": null,
+          "added_columns": 0,
+          "phase_transition": true
+        },
+        {
+          "iteration": 3,
+          "phase": 2,
+          "rmp_objective": 807.5999999999999,
+          "artificials": {},
+          "duals": {
+            "human": 40.13666666666667,
+            "robot": 56.14666666666667,
+            "convexity": {
+              "L1": -15.35666666666667,
+              "L2": -14.63666666666667,
+              "L3": 7.0633333333333255,
+              "L4": -71.96333333333334,
+              "L5": -59.07333333333338,
+              "L6": -1.2666666666666657
+            }
+          },
+          "complete_exact_pricing": true,
+          "pricing_status": [
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal"
+          ],
+          "reduced_costs": [
+            42.03333333333334,
+            47.64333333333335,
+            39.43333333333334,
+            42.559999999999995,
+            75.24333333333337,
+            51.41666666666665
+          ],
+          "repaired_upper_bound": 1105.9299999999998,
+          "added_columns": 6,
+          "phase_transition": false
+        },
+        {
+          "iteration": 4,
+          "phase": 2,
+          "rmp_objective": 976.8199999999999,
+          "artificials": {},
+          "duals": {
+            "human": 43.53999999999999,
+            "robot": 4.730000000000018,
+            "convexity": {
+              "L1": 80.66999999999999,
+              "L2": 81.38999999999999,
+              "L3": 157.90999999999997,
+              "L4": 18.609999999999985,
+              "L5": 60.78,
+              "L6": 94.75999999999999
+            }
+          },
+          "complete_exact_pricing": true,
+          "pricing_status": [
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal"
+          ],
+          "reduced_costs": [
+            37.50999999999999,
+            36.40999999999997,
+            0.1999999999999602,
+            35.51999999999998,
+            53.21999999999997,
+            39.50999999999996
+          ],
+          "repaired_upper_bound": 1179.1899999999998,
+          "added_columns": 6,
+          "phase_transition": false
+        },
+        {
+          "iteration": 5,
+          "phase": 2,
+          "rmp_objective": 980.74,
+          "artificials": {},
+          "duals": {
+            "human": 8.02000000000001,
+            "robot": 36.52999999999999,
+            "convexity": {
+              "L1": 88.11000000000001,
+              "L2": 88.83000000000001,
+              "L3": 98.23,
+              "L4": 26.05000000000002,
+              "L5": 100.02,
+              "L6": 134.0
+            }
+          },
+          "complete_exact_pricing": false,
+          "pricing_status": [
+            "time_limit",
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal",
+            "optimal"
+          ],
+          "reduced_costs": [
+            16.839999999999932,
+            15.54999999999994,
+            40.699999999999946,
+            22.90999999999999,
+            3.549999999999983,
+            0.0
+          ],
+          "repaired_upper_bound": null,
+          "added_columns": 5,
+          "phase_transition": false
+        }
+      ]
+    }
+  ],
+  "gantt_example": {
+    "source": "essay/add/gantt_demo_n20_L2/cg_result.json",
+    "sha256": "0b713e5b6e24fd431e817e540bc5af5405f29c9815b4b9cd41f1c07a04aff087",
+    "objective": 132.57999999999998,
+    "upper_bound": 132.57999999999998,
+    "status": "optimal_within_tolerance",
+    "termination_reason": "independent_line_optima_are_resource_compatible",
+    "cg_history_records": 0,
+    "pricing_calls": 2,
+    "witness": {
+      "objective": 132.57999999999998,
+      "stations": [
+        {
+          "line": "L1",
+          "station": 1,
+          "assignments": [],
+          "active": 0,
+          "human": 0,
+          "robot": 0,
+          "duration": 0.0,
+          "fatigue": 0.0,
+          "recovery": 0.0,
+          "profit": 0.0
+        },
+        {
+          "line": "L1",
+          "station": 2,
+          "assignments": [],
+          "active": 0,
+          "human": 0,
+          "robot": 0,
+          "duration": 0.0,
+          "fatigue": 0.0,
+          "recovery": 0.0,
+          "profit": 0.0
+        },
+        {
+          "line": "L1",
+          "station": 3,
+          "assignments": [
+            [
+              "1",
+              "J"
+            ],
+            [
+              "10",
+              "R"
+            ],
+            [
+              "3",
+              "R"
+            ],
+            [
+              "4",
+              "J"
+            ],
+            [
+              "7",
+              "J"
+            ],
+            [
+              "9",
+              "J"
+            ]
+          ],
+          "active": 1,
+          "human": 1,
+          "robot": 1,
+          "duration": 15.0,
+          "fatigue": 0.4435913177393671,
+          "recovery": 11.0,
+          "profit": 57.18000000000001
+        },
+        {
+          "line": "L1",
+          "station": 4,
+          "assignments": [
+            [
+              "2",
+              "H"
+            ],
+            [
+              "6",
+              "H"
+            ]
+          ],
+          "active": 1,
+          "human": 1,
+          "robot": 0,
+          "duration": 4.0,
+          "fatigue": 0.44887815837480616,
+          "recovery": 4.0,
+          "profit": 9.620000000000001
+        },
+        {
+          "line": "L2",
+          "station": 1,
+          "assignments": [],
+          "active": 0,
+          "human": 0,
+          "robot": 0,
+          "duration": 0.0,
+          "fatigue": 0.0,
+          "recovery": 0.0,
+          "profit": 0.0
+        },
+        {
+          "line": "L2",
+          "station": 2,
+          "assignments": [],
+          "active": 0,
+          "human": 0,
+          "robot": 0,
+          "duration": 0.0,
+          "fatigue": 0.0,
+          "recovery": 0.0,
+          "profit": 0.0
+        },
+        {
+          "line": "L2",
+          "station": 3,
+          "assignments": [
+            [
+              "11",
+              "J"
+            ],
+            [
+              "12",
+              "J"
+            ],
+            [
+              "13",
+              "J"
+            ],
+            [
+              "17",
+              "J"
+            ],
+            [
+              "18",
+              "J"
+            ],
+            [
+              "20",
+              "J"
+            ]
+          ],
+          "active": 1,
+          "human": 1,
+          "robot": 1,
+          "duration": 11.0,
+          "fatigue": 0.6256815996599587,
+          "recovery": 14.0,
+          "profit": 65.77999999999999
+        },
+        {
+          "line": "L2",
+          "station": 4,
+          "assignments": [],
+          "active": 0,
+          "human": 0,
+          "robot": 0,
+          "duration": 0.0,
+          "fatigue": 0.0,
+          "recovery": 0.0,
+          "profit": 0.0
+        }
+      ],
+      "resources_used": {
+        "humans": 3,
+        "robots": 2
+      },
+      "data_level_validated": true,
+      "compact_constraints_validated": true,
+      "branch_restrictions_validated": true
+    }
+  }
+}

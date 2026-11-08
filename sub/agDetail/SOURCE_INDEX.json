@@ -1,0 +1,165 @@
+{
+  "sub/stage11/run_plan_v2.py": {
+    "sha256": "d823ac1f326bac0dc743427ffa32fc3478ac99f90b76fd97832c6973e082c968",
+    "definitions": {
+      "load_module": 19,
+      "audit": 31,
+      "main": 53
+    }
+  },
+  "sub/stage11/worker_v2.py": {
+    "sha256": "fade6b48a80a4c1983b88a4628601eb4e5abfdfdee53995719ded409055e1907",
+    "definitions": {
+      "dump": 9,
+      "sha": 15,
+      "worker": 17
+    }
+  },
+  "sub/stage9/balanced_bound.py": {
+    "sha256": "f5500777c375020e49b79238524c2d89924e06aa73b56ff8d6d8a3daeac0d5f9",
+    "definitions": {
+      "run": 7
+    }
+  },
+  "sub/stage9/demand_balanced.py": {
+    "sha256": "af67d10f9c7540fed5115bd34175e503cf47771d3e5f322eaced022f391c1df9",
+    "definitions": {
+      "bound_sources": 14,
+      "initial_table": 27,
+      "update": 41,
+      "run": 55
+    }
+  },
+  "sub/stage9/cg_balanced.py": {
+    "sha256": "a12760928ecc96017727421edd2f0e723a7ea28ea33fe300a14e354182e2bad5",
+    "definitions": {
+      "run": 14
+    }
+  },
+  "sub/stage9/economic_bound.py": {
+    "sha256": "c0d7c604d92363181c20b74a535192a22ad64b0dfe6295b28fe36eac4398a4cb",
+    "definitions": {
+      "derive": 7,
+      "refine": 22,
+      "run": 34
+    }
+  },
+  "sub/line_cg.py": {
+    "sha256": "91f967f7c46c4e18f5d27bed2ec9447e53ea63d48a552264883cd908d240fbd7",
+    "definitions": {
+      "local_data": 33,
+      "column_key": 39,
+      "validate_column": 44,
+      "solve_line": 54,
+      "build_master": 99,
+      "solve_master": 133,
+      "run": 193,
+      "main": 406
+    }
+  },
+  "sub/stage3/persistent_line.py": {
+    "sha256": "295111925b8023c9289a99e7a19b22cdc8c7f932aba87fc939230d5e768d0f7f",
+    "definitions": {
+      "LinePricing": 17
+    }
+  },
+  "sub/stage6/profile_pp.py": {
+    "sha256": "f5da9003ef317691df1aa6b5fbce9c9d7c5c64dd84b0e0bb571746da5e0fc406",
+    "definitions": {
+      "allows": 10,
+      "solve_line": 14
+    }
+  },
+  "sub/stage6/resource_dp.py": {
+    "sha256": "1ca7cf471b38d4284318da365fbb7854ee543891c407e84e422591a0f38eff5e",
+    "definitions": {
+      "dynamic_program": 9,
+      "run": 30
+    }
+  },
+  "sub/validate.py": {
+    "sha256": "94d67469f58c4caa2846e7fc7c16e99f2e77c16ea171cf4bc0070538779b1c26",
+    "definitions": {
+      "close": 24,
+      "evaluate_line": 29,
+      "enumerate_line": 68,
+      "enumerate_all": 89,
+      "full_problem": 93,
+      "solve_full": 116,
+      "check_witness": 127,
+      "signature": 142,
+      "check_column": 147,
+      "audit": 154,
+      "main": 326
+    }
+  },
+  "sub/stage2/stage2_verify.py": {
+    "sha256": "92fb769252b9131f4a29440e18301a84f6403d6c33238a6a14ce2f20e9df44da",
+    "definitions": {
+      "audit": 6
+    }
+  },
+  "sub/stage7/verify7.py": {
+    "sha256": "4c9395dd60b169bed1df7acf4eb798beed84e2fcd361ef38be1adbc5379ff37b",
+    "definitions": {
+      "audit": 10
+    }
+  },
+  "sub/stage9/verify_economic.py": {
+    "sha256": "196758dac97187e0ed5693579e72136484d918058bf39bd74903e07cf0d76d7d",
+    "definitions": {
+      "audit": 8
+    }
+  },
+  "code/milp/model.py": {
+    "sha256": "1a1be642490bd77c65ae427f950a778f9418100e86dfd95067fe1d9ed09222dd",
+    "definitions": {
+      "number": 26,
+      "integer": 38,
+      "identifier": 44,
+      "check_keys": 50,
+      "topological_order": 59,
+      "validate_data": 83,
+      "Model": 149,
+      "build_model": 160,
+      "solution_report": 224,
+      "solve": 265,
+      "main": 281
+    }
+  },
+  "code/dwcg/bp_solution.py": {
+    "sha256": "17a2c048b9dd395bef075826c52aae707d3e5d1957e88d57d403c6e4b062dfbd",
+    "definitions": {
+      "verify_integer_assignments": 11,
+      "integer_from_x": 68
+    }
+  },
+  "code/dwcg/node_state.py": {
+    "sha256": "59e84691ab7f59dfed827c57aba4859f0e56d7894715d2ad4167757f442e962f",
+    "definitions": {
+      "RestrictionConflict": 8,
+      "NumericalUncertain": 12,
+      "coordinate_order": 16,
+      "NumericPolicy": 22,
+      "NodeRestrictions": 50,
+      "NodeCertificate": 112,
+      "NodeResult": 124,
+      "PricingCertificate": 145,
+      "NodePricingResult": 165,
+      "pool_snapshot": 170,
+      "most_fractional": 175
+    }
+  },
+  "code/solver_backend.py": {
+    "sha256": "6202d34b24bd40a1c3a5ec617bafe2133c21658363c3712f6fccbcf60e00a41f",
+    "definitions": {
+      "load_cplex": 26,
+      "BackendConfig": 40,
+      "use_backend": 59,
+      "objective_value": 70,
+      "cbc_max_bound": 87,
+      "_store": 101,
+      "make_solver": 117
+    }
+  }
+}
