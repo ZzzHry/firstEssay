@@ -1,0 +1,5 @@
+build/
+output/
+.codex-finalizer/
+previews/
+.chart-data-*/

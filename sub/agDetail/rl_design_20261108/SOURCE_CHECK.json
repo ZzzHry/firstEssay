@@ -1,0 +1,60 @@
+{
+  "scope": "Presentation/source-report equality; no new solve, RL training, or optimality replay.",
+  "pptx_sha256": "ca2b3d7caf92d0cae3b2cce6a7138234b2cfb99752231a94f626a1c5c2652f72",
+  "slides": 20,
+  "notes": 20,
+  "chart_series_source_match": [
+    {
+      "part": "ppt/slides/charts/chart1.xml",
+      "values": [
+        [
+          17.67,
+          22.79,
+          66.7,
+          34.24,
+          102.94,
+          180.31
+        ]
+      ],
+      "source_match": true
+    },
+    {
+      "part": "ppt/slides/charts/chart2.xml",
+      "values": [
+        [
+          19.3542,
+          29.8278
+        ],
+        [
+          51.5368,
+          35.0962
+        ]
+      ],
+      "source_match": true
+    },
+    {
+      "part": "ppt/slides/charts/chart3.xml",
+      "values": [
+        [
+          124.4366,
+          23.49
+        ]
+      ],
+      "source_match": true
+    }
+  ],
+  "native_pp_fraction_from_displayed_tables": [
+    0.912706611570248,
+    0.9264227642276421,
+    0.9711706464764123,
+    0.9378252533552452,
+    0.9750876195888984,
+    0.9869724670206361
+  ],
+  "sources": {
+    "essay/myEssay/tables/iterations.tex": "a9aa52ae1d057998995c64477060df9be1cd11185bd1606b22bf7e3f1b42f1ca",
+    "essay/myEssay/tables/formal.tex": "9e84d9412864dad76c35f2b1968e3ef7a5a7cf424364b859ed11524246309bee",
+    "RL/adaptive_v1/RESULTS.md": "ab7cc2461f81d1ccc581ef72e3c38d1aa3244c045e4347f141d802fb9e11bc04"
+  },
+  "status": "PASS"
+}
