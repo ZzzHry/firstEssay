@@ -12,7 +12,10 @@
   "figure_number": 4,
   "figure_page": 5,
   "pages": 11,
-  "maximum_height_fraction_of_textheight": 0.67,
   "aspect_ratio_preserved": true,
-  "scope": "Image replacement and LaTeX fit only; caption, algorithm and experimental results unchanged. Raster text visually inspected, not a vector-font audit."
+  "scope": "Single-column typesetting only; source PNG, caption, algorithm and experimental results unchanged. Raster labels become smaller at the requested single-column width; no vector glyph-size certification.",
+  "layout": "single-column figure",
+  "width": "columnwidth",
+  "rendered_image_width_pt": 251.05534744262695,
+  "rendered_image_height_pt": 314.094482421875
 }
