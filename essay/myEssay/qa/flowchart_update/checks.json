@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source": "essay/add/agorithm_flowchart.png",
+  "embedded_file": "essay/myEssay/img/algorithm_flowchart.png",
+  "sha256": "7e49b0675a76ec20cd8c3d3f9c8039392593d33188982b1fd9e8bf7d3895a449",
+  "source_image_pixels": [
+    912,
+    1141
+  ],
+  "source_copy_byte_identical": true,
+  "image_modified": false,
+  "figure_number": 4,
+  "figure_page": 5,
+  "pages": 11,
+  "maximum_height_fraction_of_textheight": 0.67,
+  "aspect_ratio_preserved": true,
+  "scope": "Image replacement and LaTeX fit only; caption, algorithm and experimental results unchanged. Raster text visually inspected, not a vector-font audit."
+}

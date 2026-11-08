@@ -10,8 +10,8 @@ c_{lp}&=\sum_i v_{li}y_{li}^p-\sum_{i,s,m}c_{li}^{m}x_{lism}^p\nonumber\\
 \end{align}
 An empty station is allowed within a plan. A completely empty line plan exists only if the required-task and recovery conditions allow it. Columns with the same selected task set can still differ in station assignment or mode. Deduplication therefore uses the complete assignment pattern.
 
-\begin{figure*}[!t]\centering
-\includegraphics[width=\textwidth]{img/algorithm_flowchart.png}
+\begin{figure*}[!tp]\centering
+\includegraphics[width=\textwidth,height=0.67\textheight,keepaspectratio]{img/algorithm_flowchart.png}
 \caption{Proposed framework. CG coordinates complete line plans; verified integer recovery and resource-profile bounds provide separate integer proof paths. Only complete exact pricing repairs the CG dual bound. A budget stop returns the actual proof state and remaining gap.}\label{fig:flow}
 \end{figure*}
 Fig.~\ref{fig:flow} shows the solution workflow. A station-level column can be locally feasible but difficult to combine across stations. A whole-line column already satisfies task uniqueness, required-task selection, all precedence prefixes, and line recovery. Integer combination then requires coordination of the two resource totals. The two-phase CG loop supplies LP coordination, while restricted integer recovery and profile queries address the remaining integer gap.
