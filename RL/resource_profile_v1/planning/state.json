@@ -1,0 +1,49 @@
+{
+  "mode": "compose",
+  "scope": "internal_staged_experiment_plan",
+  "planning_status": "completed_static_checks",
+  "experiment_status": "NOT RUN",
+  "next_stage": "P0",
+  "foundation_review_mean": 8.3125,
+  "review_scope": "planning_only_not_solver_validation",
+  "stages": [
+    {
+      "id": "P0",
+      "name": "diagnosis",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P1",
+      "name": "safe_query_interface",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P2",
+      "name": "deterministic_rules",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P3",
+      "name": "contextual_bandit",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P4",
+      "name": "long_horizon_rl",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P5",
+      "name": "held_out_evaluation",
+      "status": "NOT RUN"
+    }
+  ],
+  "technical_debts": [
+    "reverify_environment",
+    "collect_P0_diagnosis",
+    "implement_and_test_selector_interface_in_P1",
+    "lock_exact_D2_D3_scoring_before_P2",
+    "freeze_dataset_generation_and_grouped_splits",
+    "freeze_training_settings_on_development_data_only"
+  ]
+}

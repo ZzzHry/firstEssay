@@ -1,0 +1,103 @@
+{
+  "scope": "static plan/document/source checks only; no optimization tests",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "source_snapshot",
+      "status": "PASS",
+      "detail": {
+        "files": 29,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "historical_source_comparison",
+      "status": "PASS",
+      "detail": {
+        "matched": 19,
+        "not_present_in_historical_manifest": 10
+      }
+    },
+    {
+      "check": "numeric_policy_exact",
+      "status": "PASS",
+      "detail": {
+        "fields": 11
+      }
+    },
+    {
+      "check": "stages_not_run",
+      "status": "PASS",
+      "detail": {
+        "stages": [
+          "P0",
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5"
+        ]
+      }
+    },
+    {
+      "check": "P2_budget_arithmetic",
+      "status": "PASS",
+      "detail": {
+        "nominal_seconds": 1440
+      }
+    },
+    {
+      "check": "P5_budget_arithmetic",
+      "status": "PASS",
+      "detail": {
+        "nominal_seconds": 14400
+      }
+    },
+    {
+      "check": "proof_policy",
+      "status": "PASS",
+      "detail": "solver_floating_point_tolerances; RL predictions never proof evidence"
+    },
+    {
+      "check": "current_solver_not_claimed_verified",
+      "status": "PASS",
+      "detail": "No solver import/solve/license check executed"
+    },
+    {
+      "check": "json_parse",
+      "status": "PASS",
+      "detail": {
+        "files": 3,
+        "errors": []
+      }
+    },
+    {
+      "check": "markdown_local_links",
+      "status": "PASS",
+      "detail": {
+        "checked": 6,
+        "missing": [],
+        "generated_at_seal": "SHA256.json"
+      }
+    },
+    {
+      "check": "P2_all_experiment_budgets",
+      "status": "PASS",
+      "detail": {
+        "end_to_end": 1440,
+        "conditional": 720,
+        "forks": 120,
+        "snapshot_recovery": 180,
+        "total": 2460
+      }
+    },
+    {
+      "check": "text_line_endings",
+      "status": "PASS",
+      "detail": "New plan files normalized to LF; historical files untouched"
+    }
+  ],
+  "solver_tests": "NOT RUN",
+  "rl_training": "NOT RUN",
+  "performance_experiments": "NOT RUN"
+}

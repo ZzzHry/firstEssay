@@ -1,0 +1,221 @@
+{
+  "schema": "resource-profile-plan-1",
+  "created_date": "2026-11-11",
+  "status": "PLANNING_ONLY",
+  "execution_authorized_by_this_artifact": false,
+  "note": "本文件是配置草案；后续阶段启动前复制为不可覆盖的 frozen_protocol.json。本轮未执行实验。",
+  "baseline_commit": "e65a2b06cdf956d341a4856dc0da5f5a76e730b3",
+  "framework": "whole_line_CG_plus_integer_recovery_and_resource_profile_DP",
+  "first_version_scope": {
+    "action": [
+      "line_id",
+      "exact_human_count",
+      "exact_robot_count"
+    ],
+    "learn_budget": false,
+    "change_cg_pricing": false,
+    "change_original_model": false,
+    "add_pruning": false
+  },
+  "solver": {
+    "backend": "cplex_py",
+    "historical_version": "22.1.1",
+    "current_version_verified": false,
+    "threads": 1,
+    "solver_seed": 11,
+    "mip_relative_gap": 0
+  },
+  "numeric_policy": {
+    "lp_primal_tolerance": 1e-08,
+    "lp_dual_tolerance": 1e-08,
+    "pricing_integrality_tolerance": 1e-07,
+    "branch_integrality_tolerance": 1e-07,
+    "column_local_tolerance": 1e-08,
+    "reduced_cost_epsilon": 1e-07,
+    "artificial_tolerance": 1e-07,
+    "primal_validation_tolerance": 1e-06,
+    "bound_consistency_tolerance": 1e-05,
+    "global_absolute_tolerance": 1e-05,
+    "global_relative_tolerance": 1e-08
+  },
+  "production_settings": {
+    "cg_fraction": 0.9,
+    "cg_cap_seconds": 1000000,
+    "init_seconds": 0.5,
+    "pricing": "warm",
+    "quota": false,
+    "per_profile_seconds": 2,
+    "outer_persistence_reserve_seconds": 5,
+    "wrapper_reserve_seconds": 0.25
+  },
+  "query_budget_rule": "min(per_profile_seconds * 2**min(attempts, 8), remaining_algorithm_seconds)",
+  "query_native_state_reuse": false,
+  "mask_only": [
+    "outside_legal_domain",
+    "certified_infeasible",
+    "certified_optimal"
+  ],
+  "budget_semantics": {
+    "main": "parent_launch_to_final_committed_result_and_lightweight_verification",
+    "include_online_policy": true,
+    "include_model_load": true,
+    "include_integer_validation": true,
+    "include_necessary_evidence": true,
+    "absolute_hard_realtime_guarantee": false,
+    "full_offline_replay_cost": "reported_separately",
+    "training_cost": "reported_separately"
+  },
+  "proposed_batches": {
+    "P0_missing_evidence_recovery": {
+      "max_instances": 3,
+      "seconds_per_instance": 60,
+      "conditional_on_missing_records": true
+    },
+    "P1": {
+      "micro_case_seconds": 10,
+      "batch_cap_seconds": 600,
+      "use_for_performance_claims": false
+    },
+    "P2_smoke": {
+      "instances": 3,
+      "methods": [
+        "D0",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "seconds_per_method": 30,
+      "included_in_main_pilot": true
+    },
+    "P2_main": {
+      "instances": 12,
+      "methods": [
+        "D0",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "seconds_per_method": 30,
+      "nominal_solver_budget_seconds": 1440,
+      "experiment_kind": "end_to_end_only"
+    },
+    "P3": {
+      "max_episodes": 128,
+      "episode_seconds": 30,
+      "total_wall_cap_seconds": 7200
+    },
+    "P4_first_seed": {
+      "max_episodes": 256,
+      "episode_seconds": 30,
+      "total_wall_cap_seconds": 14400,
+      "further_training_seeds_only_after_validation": true
+    },
+    "P5_candidate": {
+      "instances": 24,
+      "methods": [
+        "D0",
+        "best_rule",
+        "B",
+        "R",
+        "C"
+      ],
+      "seconds_per_method": 120,
+      "nominal_first_matrix_seconds": 14400,
+      "final_settings_frozen_before_test": false
+    },
+    "P2_conditional": {
+      "max_snapshots": 6,
+      "methods": [
+        "D0",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "seconds_per_method": 30,
+      "nominal_solver_budget_seconds": 720
+    },
+    "P2_short_forks": {
+      "max_snapshots": 6,
+      "paths_per_snapshot": 2,
+      "seconds_per_path": 10,
+      "max_queries_per_path": 2,
+      "nominal_solver_budget_seconds": 120
+    },
+    "P2_missing_snapshot_recovery": {
+      "max_instances": 3,
+      "seconds_per_instance": 60,
+      "conditional_on_missing_records": true,
+      "nominal_solver_budget_seconds": 180
+    },
+    "P2_total_call_budget_seconds": 2460
+  },
+  "dataset_plan": {
+    "training_base_instances": 64,
+    "validation_base_instances": 16,
+    "held_out_base_instances": 24,
+    "group_key": "base_product_family_or_base_instance_id",
+    "derived_variants_snapshots_trajectories_same_split": true,
+    "freeze_input_bytes": true,
+    "expose_generator_witness": false,
+    "historical_instances_role": "development_only",
+    "generation_status": "NOT RUN"
+  },
+  "engineering_gate_P2": {
+    "active_instances_at_least": 4,
+    "of_total": 12,
+    "valid_query_decisions_per_active_instance_at_least": 3,
+    "controlled_trajectory_effect_instances_at_least": 2,
+    "statistical_significance_claim": false
+  },
+  "reward_draft": {
+    "quality": "1 - capped_valid_relative_gap",
+    "missing_bound_or_incumbent_gap": 1,
+    "area_weight": 1,
+    "first_verified_incumbent_bonus": 0.05,
+    "first_certified_global_proof_bonus": 0.1,
+    "finite_horizon_gamma": 1,
+    "freeze_before_final_test": true,
+    "use_as_mathematical_bound": false
+  },
+  "stages": [
+    {
+      "id": "P0",
+      "name": "diagnosis",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P1",
+      "name": "safe_query_interface",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P2",
+      "name": "deterministic_rules",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P3",
+      "name": "contextual_bandit",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P4",
+      "name": "long_horizon_rl",
+      "status": "NOT RUN"
+    },
+    {
+      "id": "P5",
+      "name": "held_out_evaluation",
+      "status": "NOT RUN"
+    }
+  ],
+  "proof_scope": "solver_floating_point_tolerances; RL predictions never proof evidence",
+  "pending_before_execution": [
+    "reverify_environment",
+    "collect_P0_diagnosis",
+    "implement_and_test_selector_interface_in_P1",
+    "lock_exact_D2_D3_scoring_before_P2",
+    "freeze_dataset_generation_and_grouped_splits",
+    "freeze_training_settings_on_development_data_only"
+  ]
+}

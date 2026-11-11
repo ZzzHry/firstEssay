@@ -1,0 +1,76 @@
+{
+  "schema": "resource-profile-plan-files-1",
+  "scope": "all files under this plan directory except this manifest",
+  "files": [
+    {
+      "path": "EVIDENCE_INDEX.json",
+      "sha256": "abdd7414bef07b7fe71d2634413451fef9c4f2df312184676ef64536549c494a",
+      "bytes": 8516
+    },
+    {
+      "path": "EXPERIMENT_GUIDE.md",
+      "sha256": "ebdd6c85dff5c5beb03dc2ee26fce831d1ad62e2f84393a8ba04d066f9ac530c",
+      "bytes": 24600
+    },
+    {
+      "path": "planning/00_scope.md",
+      "sha256": "e051015afa56635f19ce8bdf510bbc75f7181dac9deddf0a68bcd962754a1b83",
+      "bytes": 1268
+    },
+    {
+      "path": "planning/01_research_canon.md",
+      "sha256": "c94fe2e15e0d7cbcd21416ce76dcc5cd08f359ff2d562d0c05927e86f9c3ad11",
+      "bytes": 3546
+    },
+    {
+      "path": "planning/02_evidence_table.md",
+      "sha256": "3c81df8bf02c3638b7794f4ea99e1c804607518a68d91e34da5e4493108e905b",
+      "bytes": 1563
+    },
+    {
+      "path": "planning/03_argument_map.md",
+      "sha256": "2968786e5221c19c00cfb9f04fffc28b857cdafe9551a5dcbed7fae7e58576b3",
+      "bytes": 1734
+    },
+    {
+      "path": "planning/04_section_contracts.md",
+      "sha256": "841f516d703605488a3c72a1337dcd8a2c44646fe545f10a36c74c1007e42d06",
+      "bytes": 892
+    },
+    {
+      "path": "planning/05_style_guide.md",
+      "sha256": "b0f5842d04dcea6587ed8ba033c5c6988fac02db863cc15267131895a826b487",
+      "bytes": 723
+    },
+    {
+      "path": "planning/qa_logs/PLAN_REVIEW.md",
+      "sha256": "172e4d72b94900eaa7f89436f8d33ea9932d8a7e287450d2a42dbb6454f7d6ca",
+      "bytes": 2754
+    },
+    {
+      "path": "planning/qa_logs/STATIC_CHECKS.json",
+      "sha256": "45aea1b8574a2cfe05eed3279d1dc82fb9ba30a5d73db41942a34f1ca9b289e7",
+      "bytes": 2179
+    },
+    {
+      "path": "planning/state.json",
+      "sha256": "307d9da53ae2f2d0b11fcfb4d2145b32b245a2e7d148828b65855f647ea3eab1",
+      "bytes": 1119
+    },
+    {
+      "path": "PROTOCOL.json",
+      "sha256": "de514d2c86f8632112630cafa7f666d63707122d5d70ba6e3368ba5a35aab06f",
+      "bytes": 6149
+    },
+    {
+      "path": "README.md",
+      "sha256": "a58d343a341ed2fa19c190b67f1a02f545e4cfbf24854644d5a5dc10f466b879",
+      "bytes": 1493
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "fc8dc7608e24a4f799cf768d7251813c281f8a7c952c2306a2090996d96bac2b",
+      "bytes": 5873
+    }
+  ]
+}
