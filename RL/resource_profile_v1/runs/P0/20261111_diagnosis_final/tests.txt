@@ -1,0 +1,10 @@
+test_backward_matches_cartesian_oracle (__main__.DiagnosticTests) ... ok
+test_capacity_and_negative_profit (__main__.DiagnosticTests) ... ok
+test_forged_historical_query_bound_rejected (__main__.DiagnosticTests) ... ok
+test_only_certified_infeasible_excluded (__main__.DiagnosticTests) ... ok
+test_unknown_not_infeasible (__main__.DiagnosticTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.031s
+
+OK

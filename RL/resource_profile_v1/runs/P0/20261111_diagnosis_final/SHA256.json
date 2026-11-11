@@ -1,0 +1,81 @@
+{
+  "schema": "P0-source-and-results-1",
+  "scope": "listed new P0 files plus retained initial diagnostic; old plan SHA256 unchanged",
+  "files": [
+    {
+      "path": "RL/resource_profile_v1/diagnose_p0.py",
+      "sha256": "f1a61f7b9747582528b3dc1698e5ac23434a5302a6fe15e3e8cd3f67e5d0bb36",
+      "bytes": 15251
+    },
+    {
+      "path": "RL/resource_profile_v1/P0_PROGRESS.md",
+      "sha256": "16ea0afeceb812390946221dff6cdaa6760c35901d33ba954c72b3f21b0b5ebc",
+      "bytes": 788
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_final/BASELINE_AND_SCOPE.json",
+      "sha256": "69098af03c6568bdafc35ffd87dc996bf313794084b31064044297a63e9700a6",
+      "bytes": 1780
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_final/DIAGNOSIS.md",
+      "sha256": "6b5874768eb57ce9e0237be19afb054709cb781f748c2d7fe071d5a13eb1e3e1",
+      "bytes": 9569
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_final/diagnostics.json",
+      "sha256": "a6555509c62e01ed0659dada41ff2a4e69346464733909f7bfef7e7e8ee37c9e",
+      "bytes": 408427
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_final/environment.json",
+      "sha256": "f9a65512963a3a6711f0074f9292d768a97fb2d67b233f1141a22e3af7704bfb",
+      "bytes": 448
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_final/initial_profiles.csv",
+      "sha256": "66a3c7ae631b945f818b1c37693addf20eda173edd7a5f24593435d31c9f7998",
+      "bytes": 131327
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_final/input_and_evidence_manifest.json",
+      "sha256": "1e21febc68e2a4f325c059b2affd2848ecce640d409b6ee863f82321ff17e9d3",
+      "bytes": 85253
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_final/queries.csv",
+      "sha256": "e5f38981c5b60ab917cadf5c6f874f4fa9dc07a6d24d340db090915bb689ba29",
+      "bytes": 16430
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_final/tests.txt",
+      "sha256": "b8af1f2d7f47f41b0ecbe9fc5a4bd5acbb7ddae4b85db5ba8a077ff337bef81a",
+      "bytes": 453
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_v1/diagnostics.json",
+      "sha256": "c93b0722d49cb375543a86b891002f1744efc0a5d4d8000a5ce1b31b9fb8d410",
+      "bytes": 408428
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_v1/initial_profiles.csv",
+      "sha256": "66a3c7ae631b945f818b1c37693addf20eda173edd7a5f24593435d31c9f7998",
+      "bytes": 131327
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_v1/input_and_evidence_manifest.json",
+      "sha256": "66b6a5c0d59b87780db5de6a644b448e34f18244198627188076603384e12914",
+      "bytes": 81852
+    },
+    {
+      "path": "RL/resource_profile_v1/runs/P0/20261111_diagnosis_v1/queries.csv",
+      "sha256": "e5f38981c5b60ab917cadf5c6f874f4fa9dc07a6d24d340db090915bb689ba29",
+      "bytes": 16430
+    },
+    {
+      "path": "RL/resource_profile_v1/test_diagnose_p0.py",
+      "sha256": "662344ffc9ef52f451ba6d603a30bb95b955d40d9d1cec501542f7f2b7752f1b",
+      "bytes": 2817
+    }
+  ]
+}

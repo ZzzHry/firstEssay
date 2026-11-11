@@ -1,0 +1,45 @@
+{
+  "schema": "resource-profile-P0-readonly-1",
+  "baseline_commit": "c7daf37f89dec6be8b8846379303175225990c33",
+  "history_directory": "sub/stage13/evidence/robust180",
+  "historical_config": {
+    "worker": "sub/stage11/worker_v2.py",
+    "independent_baseline": "sub/stage1/independent_solver.py",
+    "reserve": 5,
+    "balanced_bound": {
+      "cg_fraction": 0.9,
+      "cg_cap_seconds": 1000000,
+      "per_profile_seconds": 2,
+      "pricing": "warm",
+      "init_seconds": 0.5,
+      "quota": false,
+      "max_iterations": 100,
+      "recovery_seconds": 0.5,
+      "wrapper_refinement_reserve": 0.25
+    },
+    "backend": {
+      "name": "cplex_py",
+      "threads": 1,
+      "seed": 11,
+      "gap": 0
+    },
+    "proof_scope": "solver_floating_point_tolerances",
+    "budget_scope": "parent_process_start_to_worker_exit; includes evidence persistence"
+  },
+  "historical_environment": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "D:\\Hrychang\\Code\\PostGraduate\\test\\P1Test\\experiments\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "logical_cpus": 12
+  },
+  "new_optimizer_calls": 0,
+  "new_instances_generated": 0,
+  "historical_optimizer_status_not_reproved": true,
+  "independent_replay": "backward memoized remaining-capacity recursion; original data-level witness checks",
+  "new_source_files": {
+    "diagnose_p0.py": "f1a61f7b9747582528b3dc1698e5ac23434a5302a6fe15e3e8cd3f67e5d0bb36",
+    "test_diagnose_p0.py": "662344ffc9ef52f451ba6d603a30bb95b955d40d9d1cec501542f7f2b7752f1b"
+  },
+  "packaging_note": "CSV line endings normalized to LF after replay; numeric contents unchanged"
+}

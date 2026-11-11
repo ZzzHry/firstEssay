@@ -1,0 +1,10 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "D:\\Hrychang\\Code\\PostGraduate\\test\\P1Test\\experiments\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "pulp": "3.3.2",
+  "cplex_api": "22.1.1.0",
+  "optimizer_called": false,
+  "license_solve_test": "NOT RUN",
+  "script_sha256": "f1a61f7b9747582528b3dc1698e5ac23434a5302a6fe15e3e8cd3f67e5d0bb36"
+}
