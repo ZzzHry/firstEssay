@@ -1,0 +1,304 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "two_lines",
+      "method": "station_root",
+      "checks": {
+        "status": "PASS",
+        "pricing_arithmetic_checked": 24,
+        "complete_profit_bounds": [
+          31.5,
+          28.5,
+          27.0
+        ]
+      }
+    },
+    {
+      "case": "two_lines",
+      "method": "line_root",
+      "checks": {
+        "status": "PASS",
+        "scope": "data_dual_arithmetic_and_native_status_only",
+        "columns": 6,
+        "pricing_checked": 10,
+        "independent_full_models": {},
+        "line_pattern_counts": null
+      }
+    },
+    {
+      "case": "two_lines",
+      "method": "line_full",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_bound_and_independent_IP",
+        "economic_records": 2
+      }
+    },
+    {
+      "case": "two_lines",
+      "method": "compact",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_status_and_original_witness"
+      }
+    },
+    {
+      "case": "n6",
+      "method": "station_root",
+      "checks": {
+        "status": "PASS",
+        "pricing_arithmetic_checked": 14,
+        "complete_profit_bounds": [
+          142.39,
+          145.34999999999997,
+          112.31000000000002,
+          128.15000000000003,
+          74.17999999999998,
+          59.38
+        ]
+      }
+    },
+    {
+      "case": "n6",
+      "method": "line_root",
+      "checks": {
+        "status": "PASS",
+        "scope": "data_dual_arithmetic_and_native_status_only",
+        "columns": 1,
+        "pricing_checked": 1,
+        "independent_full_models": {},
+        "line_pattern_counts": null
+      }
+    },
+    {
+      "case": "n6",
+      "method": "line_full",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_bound_and_independent_IP",
+        "economic_records": 1
+      }
+    },
+    {
+      "case": "n6",
+      "method": "compact",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_status_and_original_witness"
+      }
+    },
+    {
+      "case": "n80_L4",
+      "method": "station_root",
+      "checks": {
+        "status": "PASS",
+        "pricing_arithmetic_checked": 1118,
+        "complete_profit_bounds": [
+          3578.42722222222,
+          5639.691666666664,
+          5343.3767666666645,
+          3778.579393939394,
+          4730.66407079646,
+          3065.726674130519,
+          2880.2053627450964,
+          2781.3781385281404,
+          3127.446244477172,
+          2770.318176978449,
+          1805.5889223969475,
+          1836.930639459389,
+          2371.93115042591,
+          1747.7741119227755,
+          1685.7106081052007,
+          1224.296649273996,
+          1399.000161202291,
+          1334.203570035967,
+          1389.9047456095814,
+          1061.8789050685132,
+          1157.151096943982,
+          1111.8040903621409,
+          1038.71097016771,
+          969.8269022855374,
+          900.8285954089906
+        ]
+      }
+    },
+    {
+      "case": "n80_L4",
+      "method": "line_root",
+      "checks": {
+        "status": "PASS",
+        "scope": "data_dual_arithmetic_and_native_status_only",
+        "columns": 18,
+        "pricing_checked": 20,
+        "independent_full_models": {},
+        "line_pattern_counts": null
+      }
+    },
+    {
+      "case": "n80_L4",
+      "method": "line_full",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_bound_and_independent_IP",
+        "economic_records": 4
+      }
+    },
+    {
+      "case": "n80_L4",
+      "method": "compact",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_status_and_original_witness"
+      }
+    },
+    {
+      "case": "n120_L6_tight",
+      "method": "station_root",
+      "checks": {
+        "status": "PASS",
+        "pricing_arithmetic_checked": 1307,
+        "complete_profit_bounds": [
+          6574.932500000002,
+          10066.611999999996,
+          13023.875999999998,
+          9206.88666666667,
+          9904.359090909089,
+          10634.675555555563,
+          9519.519391025638,
+          11034.688909452616,
+          11944.32267361111,
+          5813.1522170421395,
+          7898.40397902101,
+          3647.7437243774457,
+          3875.9052225916294,
+          3323.9670514062077,
+          2780.6110890832397,
+          2871.421888443847,
+          2827.86346610291,
+          2186.7676864748055,
+          2584.412525746227,
+          2165.7201107467204,
+          1973.800792513371
+        ]
+      }
+    },
+    {
+      "case": "n120_L6_tight",
+      "method": "line_root",
+      "checks": {
+        "status": "PASS",
+        "scope": "data_dual_arithmetic_and_native_status_only",
+        "columns": 30,
+        "pricing_checked": 30,
+        "independent_full_models": {},
+        "line_pattern_counts": null
+      }
+    },
+    {
+      "case": "n120_L6_tight",
+      "method": "line_full",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_bound_and_independent_IP",
+        "economic_records": 6
+      }
+    },
+    {
+      "case": "n120_L6_tight",
+      "method": "compact",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_status_and_original_witness"
+      }
+    },
+    {
+      "case": "n80_L2_hard",
+      "method": "station_root",
+      "checks": {
+        "status": "PASS",
+        "pricing_arithmetic_checked": 1098,
+        "complete_profit_bounds": [
+          6537.125238095245,
+          11046.30923076924,
+          12205.098090185673,
+          16351.364615384618,
+          13459.464955577783,
+          18236.537197021673,
+          24157.13917112299,
+          6632.310889279786,
+          8783.009456985275,
+          4629.662152679371,
+          6449.678024834128,
+          6058.741731182583,
+          6476.44959700513,
+          5952.566890359413
+        ]
+      }
+    },
+    {
+      "case": "n80_L2_hard",
+      "method": "line_root",
+      "checks": {
+        "status": "PASS",
+        "scope": "data_dual_arithmetic_and_native_status_only",
+        "columns": 6,
+        "pricing_checked": 6,
+        "independent_full_models": {},
+        "line_pattern_counts": null
+      }
+    },
+    {
+      "case": "n80_L2_hard",
+      "method": "line_full",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_bound_and_independent_IP",
+        "economic_records": 2
+      }
+    },
+    {
+      "case": "n80_L2_hard",
+      "method": "compact",
+      "checks": {
+        "status": "PASS",
+        "scope": "native_status_and_original_witness"
+      }
+    }
+  ],
+  "tiny_oracles": {
+    "two_lines": {
+      "values": {
+        "station_LP": 27.0,
+        "line_LP": 24.0,
+        "station_IP": 24.0,
+        "line_IP": 24.0,
+        "compact_LP": 36.70163533955495,
+        "compact_IP": 24.0
+      },
+      "station_columns": 62,
+      "raw_line_columns": {
+        "L1": 47,
+        "L2": 14
+      },
+      "compressed_line_columns": 11
+    },
+    "n6": {
+      "values": {
+        "station_LP": 59.38,
+        "line_LP": 56.629999999999995,
+        "station_IP": 56.629999999999995,
+        "line_IP": 56.629999999999995,
+        "compact_LP": 64.93,
+        "compact_IP": 56.63000000000001
+      },
+      "station_columns": 274,
+      "raw_line_columns": {
+        "L1": 1074
+      },
+      "compressed_line_columns": 6
+    }
+  },
+  "forged_bound_rejected": true,
+  "seconds": 9.41843069999959
+}

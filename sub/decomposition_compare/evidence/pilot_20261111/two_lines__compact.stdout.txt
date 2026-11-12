@@ -1,0 +1,1 @@
+{"method": "compact", "status": "optimal", "lb": 24.0, "ub": 24.0, "integer_proven": true}

@@ -1,0 +1,1 @@
+{"method": "station_root", "status": "pricing_time_limit", "lb": null, "ub": 2165.7201107467195, "integer_proven": false}

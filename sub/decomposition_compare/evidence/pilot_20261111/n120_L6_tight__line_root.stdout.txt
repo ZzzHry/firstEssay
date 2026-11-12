@@ -1,0 +1,1 @@
+{"method": "line_root", "status": "adapter_error", "lb": null, "ub": null, "integer_proven": false}

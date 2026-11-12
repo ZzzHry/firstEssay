@@ -1,0 +1,99 @@
+{
+  "status": "optimal_within_tolerance",
+  "lb": 24.0,
+  "ub": 24.0,
+  "lp_objective": 24.0,
+  "lp_proven": false,
+  "integer_proven": true,
+  "witness": {
+    "objective": 24.0,
+    "stations": [
+      {
+        "line": "L1",
+        "station": 1,
+        "assignments": [
+          [
+            "1",
+            "H"
+          ],
+          [
+            "3",
+            "H"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 0,
+        "duration": 6.0,
+        "fatigue": 0.66,
+        "recovery": 2.0,
+        "profit": 13.0
+      },
+      {
+        "line": "L1",
+        "station": 2,
+        "assignments": [
+          [
+            "2",
+            "H"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 0,
+        "duration": 4.0,
+        "fatigue": 0.56,
+        "recovery": 2.0,
+        "profit": 8.0
+      },
+      {
+        "line": "L2",
+        "station": 1,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 2,
+        "assignments": [
+          [
+            "1",
+            "R"
+          ]
+        ],
+        "active": 1,
+        "human": 0,
+        "robot": 1,
+        "duration": 2.0,
+        "fatigue": 0.0,
+        "recovery": 1.0,
+        "profit": 3.0
+      }
+    ],
+    "resources_used": {
+      "humans": 2,
+      "robots": 1
+    },
+    "data_level_validated": true,
+    "compact_constraints_validated": true,
+    "branch_restrictions_validated": true
+  },
+  "pricing_calls": 10,
+  "columns": 6,
+  "profile_calls": 0,
+  "phase1_rmp_solves": 2,
+  "phase2_rmp_solves": 3,
+  "complete_pricing_rounds": 4,
+  "method": "line_full",
+  "input_sha256": "410f62e379148c3edeb5c1ff517c7c44d0c170f342a662afdbc80a3975d7d418",
+  "certificate_sha256": "93795d740080fdb9c348c13c5170d46453ffea23f1dd9da607d67d34c3e1a739",
+  "worker_seconds": 0.5585501999994449,
+  "persistence_seconds": 0.0033165000022563618,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "status": "adapter_error",
+  "lb": null,
+  "ub": null,
+  "integer_proven": false,
+  "error": "Traceback (most recent call last):\n  File \"D:\\Hrychang\\Code\\PostGraduate\\test\\P1Test\\sub\\decomposition_compare\\run.py\", line 51, in worker\n    from cg_balanced import run\n  File \"D:\\Hrychang\\Code\\PostGraduate\\test\\P1Test\\sub\\stage9\\cg_balanced.py\", line 12, in <module>\n    from persistent_line import LinePricing\nModuleNotFoundError: No module named 'persistent_line'\n",
+  "method": "line_root",
+  "input_sha256": "cd9803b47b1e631023e68fd53adf342f389f56210f3fcd824012cf3a044a50a4",
+  "certificate_sha256": "0796bd3cc258fa195efa77c4e4e0423b1bb7980a5324534c389a2bb328615bad",
+  "worker_seconds": 0.2064003000014054,
+  "persistence_seconds": 0.0010707000001275446
+}

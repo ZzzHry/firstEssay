@@ -1,0 +1,98 @@
+{
+  "status": "optimal",
+  "lb": 24.0,
+  "ub": 24.0,
+  "lp_objective": null,
+  "lp_proven": null,
+  "integer_proven": true,
+  "witness": {
+    "objective": 24.0,
+    "stations": [
+      {
+        "line": "L1",
+        "station": 1,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 2,
+        "assignments": [
+          [
+            "1",
+            "J"
+          ],
+          [
+            "2",
+            "J"
+          ],
+          [
+            "3",
+            "R"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 1,
+        "duration": 6.0,
+        "fatigue": 0.44,
+        "recovery": 4.0,
+        "profit": 19.0
+      },
+      {
+        "line": "L2",
+        "station": 1,
+        "assignments": [
+          [
+            "1",
+            "H"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 0,
+        "duration": 2.0,
+        "fatigue": 0.3,
+        "recovery": 1.0,
+        "profit": 5.0
+      },
+      {
+        "line": "L2",
+        "station": 2,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      }
+    ],
+    "resources_used": {
+      "humans": 2,
+      "robots": 1
+    },
+    "data_level_validated": true,
+    "compact_constraints_validated": true,
+    "branch_restrictions_validated": true
+  },
+  "pricing_calls": 0,
+  "columns": 0,
+  "profile_calls": 0,
+  "phase1_rmp_solves": 0,
+  "phase2_rmp_solves": 0,
+  "complete_pricing_rounds": 0,
+  "method": "compact",
+  "input_sha256": "410f62e379148c3edeb5c1ff517c7c44d0c170f342a662afdbc80a3975d7d418",
+  "certificate_sha256": "923b2d1704094370433a51cfb94fe7f9e1916997030405460ff00240b825f9d3",
+  "worker_seconds": 0.40756229999897187,
+  "persistence_seconds": 0.0012095000020053703,
+  "error": null
+}

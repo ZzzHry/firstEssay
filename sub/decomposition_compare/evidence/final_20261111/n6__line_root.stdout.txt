@@ -1,0 +1,1 @@
+{"method": "line_root", "status": "optimal_within_tolerance", "lb": 56.629999999999995, "ub": 56.629999999999995, "integer_proven": true}

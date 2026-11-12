@@ -1,0 +1,109 @@
+{
+  "status": "LP_optimal_within_tolerance",
+  "lb": 52.47999999999999,
+  "ub": 59.38,
+  "lp_objective": 59.38,
+  "lp_proven": true,
+  "integer_proven": false,
+  "witness": {
+    "objective": 52.47999999999999,
+    "stations": [
+      {
+        "line": "L1",
+        "station": 1,
+        "assignments": [
+          [
+            "1",
+            "H"
+          ],
+          [
+            "2",
+            "H"
+          ],
+          [
+            "3",
+            "H"
+          ],
+          [
+            "5",
+            "R"
+          ],
+          [
+            "6",
+            "R"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 1,
+        "duration": 14.0,
+        "fatigue": 0.4176371832961005,
+        "recovery": 12.0,
+        "profit": 52.47999999999999
+      },
+      {
+        "line": "L1",
+        "station": 2,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      }
+    ],
+    "resources_used": {
+      "humans": 1,
+      "robots": 1
+    },
+    "data_level_validated": true,
+    "compact_constraints_validated": true,
+    "branch_restrictions_validated": true
+  },
+  "recovery": {
+    "backend": "cplex_py",
+    "role": "recovery",
+    "status": "optimal",
+    "native_status": 101,
+    "native_status_text": "integer optimal solution",
+    "optimal": true,
+    "has_incumbent": true,
+    "objective": 52.47999999999999,
+    "best_bound": 52.47999999999999,
+    "relative_gap": 0.0,
+    "native_relative_gap": 0.0,
+    "solver_time": 0.0010684999979275744,
+    "translation_time": 0.0021856999992451165,
+    "effective_time_limit": 14.278559099999256,
+    "relative_gap_requested": 0,
+    "options": {
+      "name": "cplex_py",
+      "overrides": {},
+      "threads": 1,
+      "seed": 11,
+      "primal_tolerance": 1e-08,
+      "dual_tolerance": 1e-08,
+      "mip_integrality_tolerance": 1e-07,
+      "time_limit": null,
+      "role_limits": {},
+      "log_dir": "sub\\decomposition_compare\\evidence\\final_20261111\\n6__station_root\\logs",
+      "deadline": 18183.7958321
+    },
+    "wall_time": 0.003619099999923492,
+    "log_path": "sub\\decomposition_compare\\evidence\\final_20261111\\n6__station_root\\logs\\000022_recovery_cplex_py.log"
+  },
+  "pricing_calls": 14,
+  "columns": 14,
+  "profile_calls": 0,
+  "phase1_rmp_solves": 2,
+  "phase2_rmp_solves": 6,
+  "complete_pricing_rounds": 7,
+  "method": "station_root",
+  "input_sha256": "4229034af5a2d20e8a19634dbcf849587b795216fc969e87e9e790858b84db92",
+  "certificate_sha256": "61634b717e297dd4a3a62f461b7b414a97aca4b3271f45f017aae38d6da5ddd3",
+  "worker_seconds": 0.5461251000015181,
+  "persistence_seconds": 0.002857799998309929,
+  "error": null
+}

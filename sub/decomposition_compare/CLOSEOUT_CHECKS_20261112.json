@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-12",
+  "scope": "resume closeout; archived experimental results, not new solver runs",
+  "status": "PASS",
+  "sealed_files_verified": 189,
+  "formal_runs_audited": 20,
+  "native_log_members_verified": 7661,
+  "frozen_algorithm_sources_unchanged": true,
+  "new_solver_runs": 0,
+  "paper_modified": false,
+  "rl_training": "NOT RUN",
+  "receipts": [
+    {
+      "path": "SHA256.json",
+      "sha256": "9ebc45524bab140031463d09e83e5afdfecd0d2ac6735b35d5484273f2981268"
+    },
+    {
+      "path": "CLOSEOUT_20261112.md",
+      "sha256": "77ad63d913d94b1784cec89cde5b830c6f5a4cc949b9a36b9f08582464b75131"
+    },
+    {
+      "path": "evidence/final_20261111/validation/audit.json",
+      "sha256": "e96a1c7900acbb16f4322e4e8ab75778e5f82990c55d892f287c65ca84ab2afe"
+    },
+    {
+      "path": "evidence/final_20261111/accounting.json",
+      "sha256": "fae91b9b7a182ed82fa0fcb731675bf21d3f0df97b853ab2eb128901dbf4d074"
+    }
+  ]
+}

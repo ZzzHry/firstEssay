@@ -1,0 +1,718 @@
+{
+  "status": "time_limit",
+  "lb": 686.79,
+  "ub": 736.144048638116,
+  "lp_objective": null,
+  "lp_proven": null,
+  "integer_proven": false,
+  "witness": {
+    "objective": 686.79,
+    "stations": [
+      {
+        "line": "L1",
+        "station": 1,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 2,
+        "assignments": [
+          [
+            "1",
+            "H"
+          ],
+          [
+            "10",
+            "H"
+          ],
+          [
+            "12",
+            "H"
+          ],
+          [
+            "3",
+            "H"
+          ],
+          [
+            "31",
+            "H"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 0,
+        "duration": 16.0,
+        "fatigue": 0.8411944192998284,
+        "recovery": 12.0,
+        "profit": 43.68000000000001
+      },
+      {
+        "line": "L1",
+        "station": 3,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 4,
+        "assignments": [
+          [
+            "15",
+            "R"
+          ],
+          [
+            "27",
+            "R"
+          ],
+          [
+            "28",
+            "R"
+          ],
+          [
+            "32",
+            "R"
+          ],
+          [
+            "33",
+            "R"
+          ],
+          [
+            "6",
+            "R"
+          ],
+          [
+            "8",
+            "R"
+          ]
+        ],
+        "active": 1,
+        "human": 0,
+        "robot": 1,
+        "duration": 20.0,
+        "fatigue": 0.0,
+        "recovery": 19.0,
+        "profit": 48.03
+      },
+      {
+        "line": "L1",
+        "station": 5,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 6,
+        "assignments": [
+          [
+            "16",
+            "R"
+          ],
+          [
+            "18",
+            "R"
+          ],
+          [
+            "2",
+            "R"
+          ],
+          [
+            "24",
+            "R"
+          ],
+          [
+            "34",
+            "R"
+          ],
+          [
+            "4",
+            "R"
+          ],
+          [
+            "5",
+            "R"
+          ]
+        ],
+        "active": 1,
+        "human": 0,
+        "robot": 1,
+        "duration": 20.0,
+        "fatigue": 0.0,
+        "recovery": 23.0,
+        "profit": 45.06
+      },
+      {
+        "line": "L1",
+        "station": 7,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 8,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 9,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 10,
+        "assignments": [
+          [
+            "13",
+            "H"
+          ],
+          [
+            "19",
+            "H"
+          ],
+          [
+            "20",
+            "H"
+          ],
+          [
+            "21",
+            "H"
+          ],
+          [
+            "30",
+            "H"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 0,
+        "duration": 14.0,
+        "fatigue": 0.8335522889036107,
+        "recovery": 14.0,
+        "profit": 45.45
+      },
+      {
+        "line": "L1",
+        "station": 11,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 12,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 13,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 14,
+        "assignments": [
+          [
+            "17",
+            "J"
+          ],
+          [
+            "22",
+            "R"
+          ],
+          [
+            "23",
+            "R"
+          ],
+          [
+            "25",
+            "J"
+          ],
+          [
+            "26",
+            "J"
+          ],
+          [
+            "35",
+            "R"
+          ],
+          [
+            "36",
+            "J"
+          ],
+          [
+            "37",
+            "J"
+          ],
+          [
+            "39",
+            "J"
+          ],
+          [
+            "7",
+            "J"
+          ],
+          [
+            "9",
+            "J"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 1,
+        "duration": 20.0,
+        "fatigue": 0.8341481786663351,
+        "recovery": 34.0,
+        "profit": 126.14999999999998
+      },
+      {
+        "line": "L1",
+        "station": 15,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L1",
+        "station": 16,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 1,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 2,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 3,
+        "assignments": [
+          [
+            "42",
+            "R"
+          ],
+          [
+            "48",
+            "R"
+          ],
+          [
+            "49",
+            "R"
+          ],
+          [
+            "68",
+            "R"
+          ],
+          [
+            "72",
+            "R"
+          ],
+          [
+            "78",
+            "R"
+          ]
+        ],
+        "active": 1,
+        "human": 0,
+        "robot": 1,
+        "duration": 19.0,
+        "fatigue": 0.0,
+        "recovery": 17.0,
+        "profit": 17.469999999999995
+      },
+      {
+        "line": "L2",
+        "station": 4,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 5,
+        "assignments": [
+          [
+            "41",
+            "J"
+          ],
+          [
+            "45",
+            "J"
+          ],
+          [
+            "46",
+            "J"
+          ],
+          [
+            "51",
+            "J"
+          ],
+          [
+            "52",
+            "J"
+          ],
+          [
+            "53",
+            "J"
+          ],
+          [
+            "54",
+            "J"
+          ],
+          [
+            "61",
+            "J"
+          ],
+          [
+            "70",
+            "R"
+          ],
+          [
+            "75",
+            "J"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 1,
+        "duration": 20.0,
+        "fatigue": 0.9035476471662675,
+        "recovery": 26.0,
+        "profit": 106.54000000000002
+      },
+      {
+        "line": "L2",
+        "station": 6,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 7,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 8,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 9,
+        "assignments": [
+          [
+            "50",
+            "R"
+          ],
+          [
+            "55",
+            "R"
+          ],
+          [
+            "58",
+            "R"
+          ],
+          [
+            "59",
+            "R"
+          ],
+          [
+            "62",
+            "R"
+          ],
+          [
+            "67",
+            "R"
+          ],
+          [
+            "77",
+            "R"
+          ]
+        ],
+        "active": 1,
+        "human": 0,
+        "robot": 1,
+        "duration": 20.0,
+        "fatigue": 0.0,
+        "recovery": 22.0,
+        "profit": 91.35999999999999
+      },
+      {
+        "line": "L2",
+        "station": 10,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 11,
+        "assignments": [
+          [
+            "47",
+            "H"
+          ],
+          [
+            "57",
+            "H"
+          ],
+          [
+            "66",
+            "H"
+          ],
+          [
+            "74",
+            "H"
+          ],
+          [
+            "76",
+            "H"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 0,
+        "duration": 17.0,
+        "fatigue": 0.8631349709735865,
+        "recovery": 17.0,
+        "profit": 45.21000000000001
+      },
+      {
+        "line": "L2",
+        "station": 12,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 13,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 14,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      },
+      {
+        "line": "L2",
+        "station": 15,
+        "assignments": [
+          [
+            "43",
+            "R"
+          ],
+          [
+            "44",
+            "J"
+          ],
+          [
+            "56",
+            "J"
+          ],
+          [
+            "60",
+            "J"
+          ],
+          [
+            "63",
+            "J"
+          ],
+          [
+            "64",
+            "J"
+          ],
+          [
+            "65",
+            "J"
+          ],
+          [
+            "69",
+            "R"
+          ],
+          [
+            "79",
+            "J"
+          ],
+          [
+            "80",
+            "J"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 1,
+        "duration": 19.0,
+        "fatigue": 0.885750977417377,
+        "recovery": 22.0,
+        "profit": 117.83999999999997
+      },
+      {
+        "line": "L2",
+        "station": 16,
+        "assignments": [],
+        "active": 0,
+        "human": 0,
+        "robot": 0,
+        "duration": 0.0,
+        "fatigue": 0.0,
+        "recovery": 0.0,
+        "profit": 0.0
+      }
+    ],
+    "resources_used": {
+      "humans": 6,
+      "robots": 7
+    },
+    "data_level_validated": true,
+    "compact_constraints_validated": true,
+    "branch_restrictions_validated": true
+  },
+  "pricing_calls": 0,
+  "columns": 0,
+  "profile_calls": 0,
+  "phase1_rmp_solves": 0,
+  "phase2_rmp_solves": 0,
+  "complete_pricing_rounds": 0,
+  "method": "compact",
+  "input_sha256": "3f17945f02c8c4025f2f4c0a56eb16e9a43463bcda84678198a1444a4a172926",
+  "certificate_sha256": "650f9312fbd459d61f8c5d4ac8e4cfcaf6418c0c8810a400bdb5bf8a1e6903c5",
+  "worker_seconds": 25.27025009999852,
+  "persistence_seconds": 0.0017590999996173196,
+  "error": null
+}

@@ -1,0 +1,1 @@
+{"method": "compact", "status": "time_limit", "lb": 686.79, "ub": 736.144048638116, "integer_proven": false}

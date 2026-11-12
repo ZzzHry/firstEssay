@@ -1,0 +1,82 @@
+{
+  "status": "optimal_within_tolerance",
+  "lb": 56.629999999999995,
+  "ub": 56.629999999999995,
+  "lp_objective": 56.629999999999995,
+  "lp_proven": true,
+  "integer_proven": true,
+  "witness": {
+    "objective": 56.629999999999995,
+    "stations": [
+      {
+        "line": "L1",
+        "station": 1,
+        "assignments": [
+          [
+            "1",
+            "H"
+          ],
+          [
+            "2",
+            "H"
+          ],
+          [
+            "3",
+            "H"
+          ]
+        ],
+        "active": 1,
+        "human": 1,
+        "robot": 0,
+        "duration": 7.0,
+        "fatigue": 0.4176371832961005,
+        "recovery": 6.0,
+        "profit": 31.689999999999998
+      },
+      {
+        "line": "L1",
+        "station": 2,
+        "assignments": [
+          [
+            "4",
+            "R"
+          ],
+          [
+            "5",
+            "R"
+          ],
+          [
+            "6",
+            "R"
+          ]
+        ],
+        "active": 1,
+        "human": 0,
+        "robot": 1,
+        "duration": 11.0,
+        "fatigue": 0.0,
+        "recovery": 9.0,
+        "profit": 24.939999999999998
+      }
+    ],
+    "resources_used": {
+      "humans": 1,
+      "robots": 1
+    },
+    "data_level_validated": true,
+    "compact_constraints_validated": true,
+    "branch_restrictions_validated": true
+  },
+  "pricing_calls": 1,
+  "columns": 1,
+  "profile_calls": 0,
+  "phase1_rmp_solves": 0,
+  "phase2_rmp_solves": 0,
+  "complete_pricing_rounds": 0,
+  "method": "line_full",
+  "input_sha256": "4229034af5a2d20e8a19634dbcf849587b795216fc969e87e9e790858b84db92",
+  "certificate_sha256": "2ed69796cdbfce09e558b455285af4fa1b32ac37bda9154496d0772a4530d7c9",
+  "worker_seconds": 0.4222933000019111,
+  "persistence_seconds": 0.0016293999979097862,
+  "error": null
+}

@@ -1,0 +1,1 @@
+{"method": "line_full", "status": "time_limit", "lb": 977.0200000000001, "ub": 1082.1628064964127, "integer_proven": false}

@@ -1,0 +1,1 @@
+{"method": "station_root", "status": "LP_optimal_within_tolerance", "lb": 24.0, "ub": 27.0, "integer_proven": false}
